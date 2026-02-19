@@ -1,0 +1,81 @@
+{
+  "app": {
+    "title": "色觉测试 - 找不同颜色",
+    "description": "找出不同颜色的方块！",
+    "loading": "加载中..."
+  },
+  "accessibility": {
+    "skipMain": "跳转到主要内容"
+  },
+  "start": {
+    "title": "色觉灵敏度测试",
+    "subtitle": "找出不同颜色的方块！",
+    "desc": "网格越来越大，颜色差异越来越小。",
+    "meta1": "🎨 25关",
+    "meta2": "❤️ 3条命",
+    "meta3": "⏱️ 10秒",
+    "previewHint": "你能找到不同的吗？",
+    "button": "开始测试",
+    "userCount": "45,000+人已测试"
+  },
+  "game": {
+    "level": "关卡",
+    "score": "分数",
+    "lives": "生命",
+    "instruction": "点击不同的颜色！",
+    "correct": "正确！",
+    "wrong": "错了！",
+    "timeUp": "时间到！",
+    "levelUp": "关卡"
+  },
+  "result": {
+    "outOf100": "/100",
+    "levelReached": "到达关卡",
+    "correctTaps": "正确数",
+    "totalScore": "总分",
+    "retry": "再试一次",
+    "grade": {
+      "legendary": {
+        "title": "传奇色觉！",
+        "desc": "前1%的色彩灵敏度！"
+      },
+      "excellent": {
+        "title": "优秀色觉！",
+        "desc": "色彩感知能力出色！"
+      },
+      "great": {
+        "title": "很好的色觉！",
+        "desc": "高于平均的色彩灵敏度。"
+      },
+      "good": {
+        "title": "良好色觉",
+        "desc": "正常的色彩感知。"
+      },
+      "average": {
+        "title": "一般色觉",
+        "desc": "平均的色彩灵敏度。"
+      },
+      "developing": {
+        "title": "发展中的色觉",
+        "desc": "继续练习！"
+      }
+    },
+    "gradeDetail": {
+      "top": "你处于顶级水平！",
+      "level": "到达关卡",
+      "outOf": "/",
+      "accuracy": "准确率"
+    }
+  },
+  "share": {
+    "title": "分享结果",
+    "twitter": "分享到X",
+    "copy": "复制链接",
+    "copied": "已复制！",
+    "text": "我的色觉分数是",
+    "challenge": "你能超过我吗？"
+  },
+  "footer": {
+    "back": "DopaBrain 首页"
+  }
+}

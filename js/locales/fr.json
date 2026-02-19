@@ -1,0 +1,81 @@
+{
+  "app": {
+    "title": "Test de Sensibilité aux Couleurs",
+    "description": "Trouvez la couleur différente !",
+    "loading": "Chargement..."
+  },
+  "accessibility": {
+    "skipMain": "Aller au contenu principal"
+  },
+  "start": {
+    "title": "Test de Sensibilité aux Couleurs",
+    "subtitle": "Trouvez la couleur différente !",
+    "desc": "La grille grandit et les différences diminuent.",
+    "meta1": "🎨 25 niveaux",
+    "meta2": "❤️ 3 vies",
+    "meta3": "⏱️ 10s",
+    "previewHint": "Voyez-vous la différence ?",
+    "button": "Commencer",
+    "userCount": "45 000+ ont testé"
+  },
+  "game": {
+    "level": "Niveau",
+    "score": "Score",
+    "lives": "Vies",
+    "instruction": "Touchez la couleur différente !",
+    "correct": "Correct !",
+    "wrong": "Faux !",
+    "timeUp": "Temps écoulé !",
+    "levelUp": "Niveau"
+  },
+  "result": {
+    "outOf100": "/100",
+    "levelReached": "Niveau atteint",
+    "correctTaps": "Corrects",
+    "totalScore": "Score total",
+    "retry": "Réessayer",
+    "grade": {
+      "legendary": {
+        "title": "Vision légendaire !",
+        "desc": "Top 1% !"
+      },
+      "excellent": {
+        "title": "Vision excellente !",
+        "desc": "Exceptionnelle !"
+      },
+      "great": {
+        "title": "Très bonne vision !",
+        "desc": "Au-dessus de la moyenne."
+      },
+      "good": {
+        "title": "Bonne vision",
+        "desc": "Perception normale."
+      },
+      "average": {
+        "title": "Vision moyenne",
+        "desc": "Sensibilité moyenne."
+      },
+      "developing": {
+        "title": "Vision en développement",
+        "desc": "Continuez !"
+      }
+    },
+    "gradeDetail": {
+      "top": "Vous êtes au sommet !",
+      "level": "Niveau atteint",
+      "outOf": "sur",
+      "accuracy": "Précision"
+    }
+  },
+  "share": {
+    "title": "Partager",
+    "twitter": "Partager sur X",
+    "copy": "Copier l’URL",
+    "copied": "Copié !",
+    "text": "Mon score couleur est",
+    "challenge": "Pouvez-vous me battre ?"
+  },
+  "footer": {
+    "back": "DopaBrain Accueil"
+  }
+}

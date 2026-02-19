@@ -1,0 +1,81 @@
+{
+  "app": {
+    "title": "Color Sensitivity Test - Find the Different Color",
+    "description": "Find the different colored tile! Test your color sensitivity.",
+    "loading": "Loading..."
+  },
+  "accessibility": {
+    "skipMain": "Skip to main content"
+  },
+  "start": {
+    "title": "Color Sensitivity Test",
+    "subtitle": "Find the different color tile!",
+    "desc": "The grid gets bigger and color differences get smaller. How far can you go?",
+    "meta1": "🎨 25 Levels",
+    "meta2": "❤️ 3 Lives",
+    "meta3": "⏱️ 10s Timer",
+    "previewHint": "Can you spot the different one?",
+    "button": "Start Test",
+    "userCount": "45,000+ people have tested their color vision"
+  },
+  "game": {
+    "level": "Level",
+    "score": "Score",
+    "lives": "Lives",
+    "instruction": "Tap the different color!",
+    "correct": "Correct!",
+    "wrong": "Wrong!",
+    "timeUp": "Time’s up!",
+    "levelUp": "Level"
+  },
+  "result": {
+    "outOf100": "/100",
+    "levelReached": "Level Reached",
+    "correctTaps": "Correct",
+    "totalScore": "Total Score",
+    "retry": "Try Again",
+    "grade": {
+      "legendary": {
+        "title": "Legendary Color Vision!",
+        "desc": "Your color sensitivity is at the top 1%!"
+      },
+      "excellent": {
+        "title": "Excellent Color Vision!",
+        "desc": "Your color perception is outstanding!"
+      },
+      "great": {
+        "title": "Great Color Vision!",
+        "desc": "Above average color sensitivity."
+      },
+      "good": {
+        "title": "Good Color Vision",
+        "desc": "Your color perception is normal."
+      },
+      "average": {
+        "title": "Average Color Vision",
+        "desc": "Your color sensitivity is average."
+      },
+      "developing": {
+        "title": "Developing Color Vision",
+        "desc": "Keep practicing!"
+      }
+    },
+    "gradeDetail": {
+      "top": "You are in the top tier!",
+      "level": "You reached level",
+      "outOf": "out of",
+      "accuracy": "Accuracy"
+    }
+  },
+  "share": {
+    "title": "Share Result",
+    "twitter": "Share on X",
+    "copy": "Copy URL",
+    "copied": "Copied!",
+    "text": "My color sensitivity score is",
+    "challenge": "Can you beat me?"
+  },
+  "footer": {
+    "back": "DopaBrain Home"
+  }
+}

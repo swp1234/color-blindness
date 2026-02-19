@@ -1,0 +1,81 @@
+{
+  "app": {
+    "title": "Tes Sensitivitas Warna",
+    "description": "Temukan ubin yang berbeda!",
+    "loading": "Memuat..."
+  },
+  "accessibility": {
+    "skipMain": "Langsung ke konten utama"
+  },
+  "start": {
+    "title": "Tes Sensitivitas Warna",
+    "subtitle": "Temukan ubin yang berbeda!",
+    "desc": "Grid semakin besar dan perbedaan warna semakin kecil.",
+    "meta1": "🎨 25 Level",
+    "meta2": "❤️ 3 Nyawa",
+    "meta3": "⏱️ 10d",
+    "previewHint": "Bisa menemukan?",
+    "button": "Mulai Tes",
+    "userCount": "45.000+ orang telah menguji"
+  },
+  "game": {
+    "level": "Level",
+    "score": "Skor",
+    "lives": "Nyawa",
+    "instruction": "Ketuk warna yang berbeda!",
+    "correct": "Benar!",
+    "wrong": "Salah!",
+    "timeUp": "Waktu habis!",
+    "levelUp": "Level"
+  },
+  "result": {
+    "outOf100": "/100",
+    "levelReached": "Level Tercapai",
+    "correctTaps": "Benar",
+    "totalScore": "Total Skor",
+    "retry": "Coba Lagi",
+    "grade": {
+      "legendary": {
+        "title": "Penglihatan Legendaris!",
+        "desc": "Top 1%!"
+      },
+      "excellent": {
+        "title": "Penglihatan Luar Biasa!",
+        "desc": "Persepsi luar biasa!"
+      },
+      "great": {
+        "title": "Penglihatan Hebat!",
+        "desc": "Di atas rata-rata."
+      },
+      "good": {
+        "title": "Penglihatan Baik",
+        "desc": "Persepsi normal."
+      },
+      "average": {
+        "title": "Penglihatan Rata-rata",
+        "desc": "Sensitivitas rata-rata."
+      },
+      "developing": {
+        "title": "Penglihatan Berkembang",
+        "desc": "Terus berlatih!"
+      }
+    },
+    "gradeDetail": {
+      "top": "Anda di level teratas!",
+      "level": "Level tercapai",
+      "outOf": "dari",
+      "accuracy": "Akurasi"
+    }
+  },
+  "share": {
+    "title": "Bagikan Hasil",
+    "twitter": "Bagikan di X",
+    "copy": "Salin URL",
+    "copied": "Tersalin!",
+    "text": "Skor warna saya",
+    "challenge": "Bisa kalahkan saya?"
+  },
+  "footer": {
+    "back": "DopaBrain Beranda"
+  }
+}

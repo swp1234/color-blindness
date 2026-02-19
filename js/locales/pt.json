@@ -1,0 +1,81 @@
+{
+  "app": {
+    "title": "Teste de Sensibilidade de Cor",
+    "description": "Encontre o bloco diferente!",
+    "loading": "Carregando..."
+  },
+  "accessibility": {
+    "skipMain": "Ir para o conteúdo principal"
+  },
+  "start": {
+    "title": "Teste de Sensibilidade de Cor",
+    "subtitle": "Encontre o bloco diferente!",
+    "desc": "A grade aumenta e as diferenças diminuem.",
+    "meta1": "🎨 25 níveis",
+    "meta2": "❤️ 3 vidas",
+    "meta3": "⏱️ 10s",
+    "previewHint": "Consegue ver?",
+    "button": "Iniciar",
+    "userCount": "45.000+ testaram"
+  },
+  "game": {
+    "level": "Nível",
+    "score": "Pontos",
+    "lives": "Vidas",
+    "instruction": "Toque na cor diferente!",
+    "correct": "Correto!",
+    "wrong": "Errado!",
+    "timeUp": "Tempo!",
+    "levelUp": "Nível"
+  },
+  "result": {
+    "outOf100": "/100",
+    "levelReached": "Nível alcançado",
+    "correctTaps": "Acertos",
+    "totalScore": "Pontuação",
+    "retry": "Tentar novamente",
+    "grade": {
+      "legendary": {
+        "title": "Visão lendária!",
+        "desc": "Top 1%!"
+      },
+      "excellent": {
+        "title": "Visão excelente!",
+        "desc": "Percepção excepcional!"
+      },
+      "great": {
+        "title": "Ótima visão!",
+        "desc": "Acima da média."
+      },
+      "good": {
+        "title": "Boa visão",
+        "desc": "Percepção normal."
+      },
+      "average": {
+        "title": "Visão média",
+        "desc": "Sensibilidade média."
+      },
+      "developing": {
+        "title": "Visão em desenvolvimento",
+        "desc": "Continue praticando!"
+      }
+    },
+    "gradeDetail": {
+      "top": "Você está no topo!",
+      "level": "Nível alcançado",
+      "outOf": "de",
+      "accuracy": "Precisão"
+    }
+  },
+  "share": {
+    "title": "Compartilhar",
+    "twitter": "Compartilhar no X",
+    "copy": "Copiar URL",
+    "copied": "Copiado!",
+    "text": "Minha pontuação é",
+    "challenge": "Consegue me superar?"
+  },
+  "footer": {
+    "back": "DopaBrain Início"
+  }
+}

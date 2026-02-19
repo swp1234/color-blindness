@@ -1,0 +1,81 @@
+{
+  "app": {
+    "title": "색각 테스트 - 다른 색 찾기",
+    "description": "다른 색 하나를 찾아라! 레벨이 올라갈수록 어려워집니다.",
+    "loading": "로딩 중..."
+  },
+  "accessibility": {
+    "skipMain": "본문으로 건너뛰기"
+  },
+  "start": {
+    "title": "색각 감수성 테스트",
+    "subtitle": "다른 색 타일을 찾아보세요!",
+    "desc": "격자가 커지고 색 차이가 줄어듭니다. 어디까지 갈 수 있을까요?",
+    "meta1": "🎨 25 레벨",
+    "meta2": "❤️ 3 목숨",
+    "meta3": "⏱️ 10초 타이머",
+    "previewHint": "다른 색을 찾을 수 있나요?",
+    "button": "테스트 시작",
+    "userCount": "45,000+ 명이 색각을 테스트했습니다"
+  },
+  "game": {
+    "level": "레벨",
+    "score": "점수",
+    "lives": "목숨",
+    "instruction": "다른 색을 탭하세요!",
+    "correct": "정답!",
+    "wrong": "틀렸어요!",
+    "timeUp": "시간 초과!",
+    "levelUp": "레벨"
+  },
+  "result": {
+    "outOf100": "/100",
+    "levelReached": "도달 레벨",
+    "correctTaps": "정답 수",
+    "totalScore": "총 점수",
+    "retry": "다시 하기",
+    "grade": {
+      "legendary": {
+        "title": "전설적인 색각!",
+        "desc": "상위 1%의 색 감수성! 대부분의 사람이 볼 수 없는 극미한 색 차이를 구별할 수 있습니다."
+      },
+      "excellent": {
+        "title": "뛰어난 색각!",
+        "desc": "색 인지 능력이 뛰어납니다!"
+      },
+      "great": {
+        "title": "훌륭한 색각!",
+        "desc": "평균 이상의 색 감수성입니다."
+      },
+      "good": {
+        "title": "좋은 색각",
+        "desc": "정상적인 색 인지 능력입니다."
+      },
+      "average": {
+        "title": "보통 색각",
+        "desc": "평균적인 색 감수성입니다."
+      },
+      "developing": {
+        "title": "발전하는 색각",
+        "desc": "연습을 계속하세요!"
+      }
+    },
+    "gradeDetail": {
+      "top": "색 인지 최상위 등급입니다!",
+      "level": "도달 레벨",
+      "outOf": "/",
+      "accuracy": "정확도"
+    }
+  },
+  "share": {
+    "title": "결과 공유",
+    "twitter": "X에 공유",
+    "copy": "URL 복사",
+    "copied": "복사됨!",
+    "text": "나의 색각 점수는",
+    "challenge": "나를 이길 수 있나요?"
+  },
+  "footer": {
+    "back": "DopaBrain 홈"
+  }
+}

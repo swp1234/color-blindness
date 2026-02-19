@@ -1,0 +1,81 @@
+{
+  "app": {
+    "title": "Renk Hassasiyeti Testi",
+    "description": "Farklı renkli kareyi bul!",
+    "loading": "Yükleniyor..."
+  },
+  "accessibility": {
+    "skipMain": "Ana içeriğe geç"
+  },
+  "start": {
+    "title": "Renk Hassasiyeti Testi",
+    "subtitle": "Farklı renkli kareyi bul!",
+    "desc": "Izgara büyür ve renk farkları küçülür.",
+    "meta1": "🎨 25 Seviye",
+    "meta2": "❤️ 3 Can",
+    "meta3": "⏱️ 10sn",
+    "previewHint": "Farkı görebiliyor musun?",
+    "button": "Teste Başla",
+    "userCount": "45.000+ kişi test etti"
+  },
+  "game": {
+    "level": "Seviye",
+    "score": "Puan",
+    "lives": "Can",
+    "instruction": "Farklı renge dokun!",
+    "correct": "Doğru!",
+    "wrong": "Yanlış!",
+    "timeUp": "Süre doldu!",
+    "levelUp": "Seviye"
+  },
+  "result": {
+    "outOf100": "/100",
+    "levelReached": "Ulaşılan Seviye",
+    "correctTaps": "Doğru",
+    "totalScore": "Toplam Puan",
+    "retry": "Tekrar Dene",
+    "grade": {
+      "legendary": {
+        "title": "Efsanevi Renk Görüşü!",
+        "desc": "En üst %1!"
+      },
+      "excellent": {
+        "title": "Mükemmel Renk Görüşü!",
+        "desc": "Olağanüstü algı!"
+      },
+      "great": {
+        "title": "Harika Renk Görüşü!",
+        "desc": "Ortalamanın üzerinde."
+      },
+      "good": {
+        "title": "İyi Renk Görüşü",
+        "desc": "Normal algı."
+      },
+      "average": {
+        "title": "Ortalama Renk Görüşü",
+        "desc": "Ortalama hassasiyet."
+      },
+      "developing": {
+        "title": "Gelişen Renk Görüşü",
+        "desc": "Pratik yapmaya devam et!"
+      }
+    },
+    "gradeDetail": {
+      "top": "En üst seviyedesiniz!",
+      "level": "Ulaşılan seviye",
+      "outOf": "/",
+      "accuracy": "Doğruluk"
+    }
+  },
+  "share": {
+    "title": "Sonucu Paylaş",
+    "twitter": "X’te Paylaş",
+    "copy": "URL Kopyala",
+    "copied": "Kopyalandı!",
+    "text": "Renk puanım",
+    "challenge": "Beni yenebilir misin?"
+  },
+  "footer": {
+    "back": "DopaBrain Ana Sayfa"
+  }
+}

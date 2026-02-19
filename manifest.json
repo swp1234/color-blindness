@@ -1,0 +1,13 @@
+{
+  "name": "Color Blindness Test",
+  "short_name": "Color Test",
+  "description": "Find the different color tile! Test your color sensitivity.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0a0a1e",
+  "theme_color": "#00cec9",
+  "icons": [
+    { "src": "icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" },
+    { "src": "icon-512.svg", "sizes": "512x512", "type": "image/svg+xml" }
+  ]
+}

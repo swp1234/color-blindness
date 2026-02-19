@@ -1,0 +1,81 @@
+{
+  "app": {
+    "title": "色覚テスト - 違う色を見つけよう",
+    "description": "違う色のタイルを見つけよう！",
+    "loading": "読み込み中..."
+  },
+  "accessibility": {
+    "skipMain": "メインコンテンツへ"
+  },
+  "start": {
+    "title": "色覚感度テスト",
+    "subtitle": "違う色のタイルを見つけよう！",
+    "desc": "グリッドが大きくなり、色の差が小さくなります。",
+    "meta1": "🎨 25レベル",
+    "meta2": "❤️ ライフ3",
+    "meta3": "⏱️ 10秒",
+    "previewHint": "違う色を見つけられますか？",
+    "button": "テスト開始",
+    "userCount": "45,000人以上がテスト済み"
+  },
+  "game": {
+    "level": "レベル",
+    "score": "スコア",
+    "lives": "ライフ",
+    "instruction": "違う色をタップ！",
+    "correct": "正解！",
+    "wrong": "不正解！",
+    "timeUp": "時間切れ！",
+    "levelUp": "レベル"
+  },
+  "result": {
+    "outOf100": "/100",
+    "levelReached": "到達レベル",
+    "correctTaps": "正解数",
+    "totalScore": "合計スコア",
+    "retry": "もう一度",
+    "grade": {
+      "legendary": {
+        "title": "伝説の色覚！",
+        "desc": "上位1%の色感度！"
+      },
+      "excellent": {
+        "title": "優秀な色覚！",
+        "desc": "素晴らしい色の知覚！"
+      },
+      "great": {
+        "title": "素晴らしい色覚！",
+        "desc": "平均以上の色感度。"
+      },
+      "good": {
+        "title": "良い色覚",
+        "desc": "正常な色の知覚です。"
+      },
+      "average": {
+        "title": "平均的な色覚",
+        "desc": "平均的な色感度です。"
+      },
+      "developing": {
+        "title": "成長中の色覚",
+        "desc": "練習を続けましょう！"
+      }
+    },
+    "gradeDetail": {
+      "top": "トップクラスです！",
+      "level": "到達レベル",
+      "outOf": "/",
+      "accuracy": "正確度"
+    }
+  },
+  "share": {
+    "title": "結果を共有",
+    "twitter": "Xで共有",
+    "copy": "URLコピー",
+    "copied": "コピー済み！",
+    "text": "私の色覚スコアは",
+    "challenge": "私に勝てますか？"
+  },
+  "footer": {
+    "back": "DopaBrain ホーム"
+  }
+}

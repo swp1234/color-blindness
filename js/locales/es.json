@@ -1,0 +1,81 @@
+{
+  "app": {
+    "title": "Test de Sensibilidad al Color",
+    "description": "¡Encuentra el azulejo diferente!",
+    "loading": "Cargando..."
+  },
+  "accessibility": {
+    "skipMain": "Ir al contenido principal"
+  },
+  "start": {
+    "title": "Test de Sensibilidad al Color",
+    "subtitle": "¡Encuentra el azulejo diferente!",
+    "desc": "La cuadrícula crece y las diferencias de color disminuyen.",
+    "meta1": "🎨 25 niveles",
+    "meta2": "❤️ 3 vidas",
+    "meta3": "⏱️ 10s",
+    "previewHint": "¿Ves la diferencia?",
+    "button": "Comenzar",
+    "userCount": "45.000+ lo han probado"
+  },
+  "game": {
+    "level": "Nivel",
+    "score": "Puntos",
+    "lives": "Vidas",
+    "instruction": "¡Toca el color diferente!",
+    "correct": "¡Correcto!",
+    "wrong": "¡Incorrecto!",
+    "timeUp": "¡Tiempo!",
+    "levelUp": "Nivel"
+  },
+  "result": {
+    "outOf100": "/100",
+    "levelReached": "Nivel alcanzado",
+    "correctTaps": "Aciertos",
+    "totalScore": "Puntuación",
+    "retry": "Reintentar",
+    "grade": {
+      "legendary": {
+        "title": "¡Visión legendaria!",
+        "desc": "¡Sensibilidad top 1%!"
+      },
+      "excellent": {
+        "title": "¡Visión excelente!",
+        "desc": "¡Percepción sobresaliente!"
+      },
+      "great": {
+        "title": "¡Muy buena visión!",
+        "desc": "Por encima del promedio."
+      },
+      "good": {
+        "title": "Buena visión",
+        "desc": "Percepción normal."
+      },
+      "average": {
+        "title": "Visión promedio",
+        "desc": "Sensibilidad promedio."
+      },
+      "developing": {
+        "title": "Visión en desarrollo",
+        "desc": "¡Sigue practicando!"
+      }
+    },
+    "gradeDetail": {
+      "top": "¡Estás en el nivel superior!",
+      "level": "Nivel alcanzado",
+      "outOf": "de",
+      "accuracy": "Precisión"
+    }
+  },
+  "share": {
+    "title": "Compartir resultado",
+    "twitter": "Compartir en X",
+    "copy": "Copiar URL",
+    "copied": "¡Copiado!",
+    "text": "Mi puntuación de color es",
+    "challenge": "¿Puedes superarme?"
+  },
+  "footer": {
+    "back": "DopaBrain Inicio"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "app": {
+    "title": "Farbempfindlichkeitstest",
+    "description": "Finde die andere Farbe!",
+    "loading": "Laden..."
+  },
+  "accessibility": {
+    "skipMain": "Zum Hauptinhalt springen"
+  },
+  "start": {
+    "title": "Farbempfindlichkeitstest",
+    "subtitle": "Finde die andere Farbe!",
+    "desc": "Das Raster wird größer und die Unterschiede kleiner.",
+    "meta1": "🎨 25 Level",
+    "meta2": "❤️ 3 Leben",
+    "meta3": "⏱️ 10s",
+    "previewHint": "Erkennst du den Unterschied?",
+    "button": "Test starten",
+    "userCount": "45.000+ haben getestet"
+  },
+  "game": {
+    "level": "Level",
+    "score": "Punkte",
+    "lives": "Leben",
+    "instruction": "Tippe auf die andere Farbe!",
+    "correct": "Richtig!",
+    "wrong": "Falsch!",
+    "timeUp": "Zeit um!",
+    "levelUp": "Level"
+  },
+  "result": {
+    "outOf100": "/100",
+    "levelReached": "Erreichtes Level",
+    "correctTaps": "Richtig",
+    "totalScore": "Gesamtpunktzahl",
+    "retry": "Nochmal",
+    "grade": {
+      "legendary": {
+        "title": "Legendäres Farbsehen!",
+        "desc": "Top 1%!"
+      },
+      "excellent": {
+        "title": "Ausgezeichnetes Farbsehen!",
+        "desc": "Hervorragend!"
+      },
+      "great": {
+        "title": "Großartiges Farbsehen!",
+        "desc": "Überdurchschnittlich."
+      },
+      "good": {
+        "title": "Gutes Farbsehen",
+        "desc": "Normale Wahrnehmung."
+      },
+      "average": {
+        "title": "Durchschnittliches Farbsehen",
+        "desc": "Durchschnittlich."
+      },
+      "developing": {
+        "title": "Sich entwickelnd",
+        "desc": "Weiter üben!"
+      }
+    },
+    "gradeDetail": {
+      "top": "Sie sind an der Spitze!",
+      "level": "Erreichtes Level",
+      "outOf": "von",
+      "accuracy": "Genauigkeit"
+    }
+  },
+  "share": {
+    "title": "Ergebnis teilen",
+    "twitter": "Auf X teilen",
+    "copy": "URL kopieren",
+    "copied": "Kopiert!",
+    "text": "Mein Farbscore ist",
+    "challenge": "Kannst du mich schlagen?"
+  },
+  "footer": {
+    "back": "DopaBrain Startseite"
+  }
+}
