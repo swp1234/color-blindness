@@ -77,5 +77,12 @@
   },
   "footer": {
     "back": "DopaBrain Ana Sayfa"
+  },
+  "related": {
+    "title": "Daha fazla keşfet",
+    "colorPalette": "Renk Paleti",
+    "colorPersonality": "Renk Kişiliği",
+    "colorMemory": "Renk Hafızası",
+    "reactionTest": "Reaksiyon Testi"
   }
 }

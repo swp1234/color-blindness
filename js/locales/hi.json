@@ -77,5 +77,12 @@
   },
   "footer": {
     "back": "DopaBrain होम"
+  },
+  "related": {
+    "title": "और खोजें",
+    "colorPalette": "रंग पैलेट",
+    "colorPersonality": "रंग व्यक्तित्व",
+    "colorMemory": "रंग स्मृति",
+    "reactionTest": "प्रतिक्रिया परीक्षण"
   }
 }

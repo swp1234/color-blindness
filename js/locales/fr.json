@@ -77,5 +77,12 @@
   },
   "footer": {
     "back": "DopaBrain Accueil"
+  },
+  "related": {
+    "title": "À découvrir",
+    "colorPalette": "Palette de couleurs",
+    "colorPersonality": "Personnalité des couleurs",
+    "colorMemory": "Mémoire des couleurs",
+    "reactionTest": "Test de réaction"
   }
 }
