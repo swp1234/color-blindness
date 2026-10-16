@@ -81,8 +81,8 @@
   "related": {
     "title": "探索更多",
     "colorPalette": "调色板",
-    "colorPersonality": "色彩性格",
-    "colorMemory": "颜色记忆",
-    "reactionTest": "反应测试"
+    "futureSelf": "未来自画像",
+    "stressCheck": "压力测试",
+    "iqTest": "智商测试"
   }
 }

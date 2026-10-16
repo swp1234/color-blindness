@@ -81,8 +81,8 @@
   "related": {
     "title": "और खोजें",
     "colorPalette": "रंग पैलेट",
-    "colorPersonality": "रंग व्यक्तित्व",
-    "colorMemory": "रंग स्मृति",
-    "reactionTest": "प्रतिक्रिया परीक्षण"
+    "futureSelf": "भविष्य का आत्म",
+    "stressCheck": "तनाव जांच",
+    "iqTest": "आईक्यू टेस्ट"
   }
 }

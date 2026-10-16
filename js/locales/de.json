@@ -81,8 +81,8 @@
   "related": {
     "title": "Mehr entdecken",
     "colorPalette": "Farbpalette",
-    "colorPersonality": "Farbpersönlichkeit",
-    "colorMemory": "Farbgedächtnis",
-    "reactionTest": "Reaktionstest"
+    "futureSelf": "Zukunfts-Ich",
+    "stressCheck": "Stress-Test",
+    "iqTest": "IQ-Test"
   }
 }

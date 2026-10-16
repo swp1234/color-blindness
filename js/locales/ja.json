@@ -81,8 +81,8 @@
   "related": {
     "title": "もっと楽しむ",
     "colorPalette": "カラーパレット",
-    "colorPersonality": "カラー性格診断",
-    "colorMemory": "カラーメモリー",
-    "reactionTest": "反応速度テスト"
+    "futureSelf": "未来の自分",
+    "stressCheck": "ストレスチェック",
+    "iqTest": "IQテスト"
   }
 }

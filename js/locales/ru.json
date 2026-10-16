@@ -81,8 +81,8 @@
   "related": {
     "title": "Ещё интересное",
     "colorPalette": "Цветовая палитра",
-    "colorPersonality": "Цветовая личность",
-    "colorMemory": "Цветовая память",
-    "reactionTest": "Тест реакции"
+    "futureSelf": "Будущее я",
+    "stressCheck": "Тест на стресс",
+    "iqTest": "Тест IQ"
   }
 }

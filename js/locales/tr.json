@@ -81,8 +81,8 @@
   "related": {
     "title": "Daha fazla keşfet",
     "colorPalette": "Renk Paleti",
-    "colorPersonality": "Renk Kişiliği",
-    "colorMemory": "Renk Hafızası",
-    "reactionTest": "Reaksiyon Testi"
+    "futureSelf": "Gelecekteki Ben",
+    "stressCheck": "Stres Testi",
+    "iqTest": "IQ Testi"
   }
 }

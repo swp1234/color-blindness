@@ -81,8 +81,8 @@
   "related": {
     "title": "Jelajahi lainnya",
     "colorPalette": "Palet Warna",
-    "colorPersonality": "Kepribadian Warna",
-    "colorMemory": "Memori Warna",
-    "reactionTest": "Tes Reaksi"
+    "futureSelf": "Diri Masa Depan",
+    "stressCheck": "Tes Stres",
+    "iqTest": "Tes IQ"
   }
 }

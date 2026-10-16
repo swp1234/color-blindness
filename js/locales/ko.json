@@ -81,8 +81,8 @@
   "related": {
     "title": "더 많은 콘텐츠",
     "colorPalette": "색상 팔레트",
-    "colorPersonality": "색상 성격",
-    "colorMemory": "색상 기억력",
-    "reactionTest": "반응속도 테스트"
+    "futureSelf": "미래 자아",
+    "stressCheck": "스트레스 지수",
+    "iqTest": "IQ 테스트"
   }
 }
