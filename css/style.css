@@ -75,6 +75,10 @@ body {
 /* === Skip Link === */
 .skip-link {
     position: absolute;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
     top: -100%;
     left: 16px;
     background: var(--primary);
