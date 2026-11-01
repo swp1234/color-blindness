@@ -381,6 +381,9 @@ function endGame() {
             total_score: state.score
         });
     }
+
+    preserveLanguageLinks();
+    initCtaTracking();
 }
 
 // === Animate Number ===
@@ -485,6 +488,7 @@ function initLanguage() {
             if (window.i18n) {
                 await window.i18n.setLanguage(lang);
                 updateActiveLang(lang);
+                preserveLanguageLinks();
                 // Re-update game instruction if playing
                 if (state.isPlaying) {
                     gameInstruction.textContent = _t('game.instruction', 'Tap the different color!');
@@ -513,6 +517,44 @@ function updateActiveLang(lang) {
     });
 }
 
+function preserveLanguageLinks() {
+    const lang = (window.i18n && window.i18n.currentLang) || 'en';
+    document.querySelectorAll('a[href]').forEach(link => {
+        const href = link.getAttribute('href');
+        if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('javascript:')) return;
+        try {
+            const url = new URL(href, window.location.origin);
+            if (url.origin === window.location.origin || url.hostname === 'dopabrain.com' || url.hostname.endsWith('.dopabrain.com')) {
+                if (lang && lang !== 'en') {
+                    url.searchParams.set('lang', lang);
+                } else {
+                    url.searchParams.delete('lang');
+                }
+                if (link.closest('.related-grid') || link.classList.contains('related-card')) {
+                    url.searchParams.set('source', 'color_blindness_rec');
+                }
+                link.href = url.pathname + url.search;
+            }
+        } catch (e) {}
+    });
+}
+
+function initCtaTracking() {
+    document.querySelectorAll('.related-card, .back-link').forEach(link => {
+        if (link.dataset.hasCtaListener) return;
+        link.dataset.hasCtaListener = 'true';
+        link.addEventListener('click', function() {
+            if (typeof gtag === 'function') {
+                gtag('event', 'content_cta_click', {
+                    cta_type: this.classList.contains('related-card') ? 'companion_card' : 'back_link',
+                    destination: this.getAttribute('href') || '',
+                    source: 'color_blindness'
+                });
+            }
+        });
+    });
+}
+
 // === Init ===
 async function init() {
     initTheme();
@@ -524,6 +566,8 @@ async function init() {
     }
 
     initLanguage();
+    preserveLanguageLinks();
+    initCtaTracking();
 
     // Event listeners
     $('btn-start').addEventListener('click', startGame);
