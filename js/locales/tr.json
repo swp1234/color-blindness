@@ -16,7 +16,7 @@
     "meta3": "⏱️ 10sn",
     "previewHint": "Farkı görebiliyor musun?",
     "button": "Teste Başla",
-    "userCount": "45.000+ kişi test etti"
+    "disclaimer": "Bu test bir eğitim aracıdır, göz sağlığı teşhisi yerine geçmez. Klinik değerlendirme için bir göz doktoruna danışınız."
   },
   "game": {
     "level": "Seviye",
@@ -84,5 +84,34 @@
     "futureSelf": "Gelecekteki Ben",
     "stressCheck": "Stres Testi",
     "iqTest": "IQ Testi"
+  },
+  "guide": {
+    "aboutTitle": "Renk Duyarlılığı Değerlendirmesi Hakkında",
+    "methodologyTitle": "Değerlendirme Çerçevesi ve Renk Ayrımı",
+    "methodologyDesc": "İnsan renk algısı retinadaki koni hücrelerine dayanır. Bu test, Weber-Fechner yasasına göre fark edilebilir en küçük renk kontrastını (JND) ölçer.",
+    "disclaimer": "Bu test bir eğitim aracıdır, göz sağlığı teşhisi yerine geçmez. Klinik değerlendirme için bir göz doktoruna danışınız.",
+    "bandsTitle": "Puan Aralıkları ve Renk Algısı Yorumu",
+    "bandSuperiorTitle": "Üstün Renk Ayrımı (Seviye 20–25):",
+    "bandSuperiorDesc": "Çok ince Delta-E renk farklılıklarını ayırt edebilen üstün renk duyarlılığı.",
+    "bandHighTitle": "Yüksek Normal Ayrım (Seviye 15–19):",
+    "bandHighDesc": "Farklı ton gruplarında güçlü ve tutarlı renk kontrastı çözünürlüğü.",
+    "bandStandardTitle": "Standart Görüş (Seviye 10–14):",
+    "bandStandardDesc": "Günlük dijital ve görsel görevler için standart trikromatik renk görüşü.",
+    "bandDevelopingTitle": "Gelişmekte Olan (Seviye 1–9):",
+    "bandDevelopingDesc": "Zaman baskısı veya ekran parlaklığı koşullarından etkilenmiş olabilir.",
+    "faqTitle": "Sıkça Sorulan Sorular (SSS)",
+    "faq1Q": "Dijital ekranlar renk körlüğünü kesin teşhis edebilir mi?",
+    "faq1A": "Ekran renk gamları farklılık gösterir. Resmi klinik teşhis için Ishihara testi gereklidir.",
+    "faq2Q": "En yaygın renk görme eksiklikleri nelerdir?",
+    "faq2A": "Kırmızı-yeşil renk eksiklikleri (döteranomali ve protanomali) en yaygın olanlardır.",
+    "faq3Q": "Bu testin Ishihara testinden farkı nedir?",
+    "faq3A": "Ishihara belirli hata çizgilerini tespit eder; bu test ise ton kontrast duyarlılığını ölçer.",
+    "faq4Q": "Gece modu veya ekran parlaklığı sonucu etkiler mi?",
+    "faq4A": "Evet. Mavi ışık filtreleri renk tonlarını değiştirir, test sırasında kapatılması önerilir.",
+    "referencesTitle": "Akademik Kaynakça",
+    "ref1": "Farnsworth, D. (1943). The Farnsworth-Munsell 100-hue test. J. Opt. Soc. Am.",
+    "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
+    "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford Univ. Press.",
+    "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
   }
 }

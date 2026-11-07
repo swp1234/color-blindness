@@ -16,7 +16,7 @@
     "meta3": "⏱️ 10d",
     "previewHint": "Bisa menemukan?",
     "button": "Mulai Tes",
-    "userCount": "45.000+ orang telah menguji"
+    "disclaimer": "Tes ini merupakan alat edukasi interaktif dan bukan diagnosis medis optalmologi. Untuk diagnosis buta warna klinis, hubungi dokter mata."
   },
   "game": {
     "level": "Level",
@@ -37,7 +37,7 @@
     "grade": {
       "legendary": {
         "title": "Penglihatan Legendaris!",
-        "desc": "Top 1%!"
+        "desc": "exceptional!"
       },
       "excellent": {
         "title": "Penglihatan Luar Biasa!",
@@ -84,5 +84,34 @@
     "futureSelf": "Diri Masa Depan",
     "stressCheck": "Tes Stres",
     "iqTest": "Tes IQ"
+  },
+  "guide": {
+    "aboutTitle": "Tentang Tes Sensitivitas Warna",
+    "methodologyTitle": "Kerangka Pengujian dan Diskriminasi Kromatik",
+    "methodologyDesc": "Persepsi warna manusia bergantung pada tiga sel kerucut retina. Tes ini mengukur ambang batas perbedaan warna minimal (JND) berdasarkan hukum Weber-Fechner.",
+    "disclaimer": "Tes ini merupakan alat edukasi interaktif dan bukan diagnosis medis optalmologi. Untuk diagnosis buta warna klinis, hubungi dokter mata.",
+    "bandsTitle": "Interpretasi Tingkat Skor & Akurasi",
+    "bandSuperiorTitle": "Diskriminasi Luar Biasa (Level 20–25):",
+    "bandSuperiorDesc": "Sensitivitas tinggi dalam membedakan variasi warna Delta-E yang sangat halus.",
+    "bandHighTitle": "Diskriminasi Normal Tinggi (Level 15–19):",
+    "bandHighDesc": "Resolusi kontras warna yang solid di berbagai variasi rona.",
+    "bandStandardTitle": "Diskriminasi Standar (Level 10–14):",
+    "bandStandardDesc": "Penglihatan trikromatik normal untuk aktivitas sehari-hari.",
+    "bandDevelopingTitle": "Sedang Berkembang (Level 1–9):",
+    "bandDevelopingDesc": "Terpengaruh batasan waktu atau pencahayaan layar.",
+    "faqTitle": "Pertanyaan yang Sering Diajukan (FAQ)",
+    "faq1Q": "Bisakah layar ponsel mendiagnosis buta warna secara akurat?",
+    "faq1A": "Layar memiliki kalibrasi warna berbeda. Diagnosis medis resmi memerlukan buku tes Ishihara di klinik mata.",
+    "faq2Q": "Apa jenis gangguan penglihatan warna yang paling umum?",
+    "faq2A": "Defisiensi merah-hijau (deuteranomali dan protanomali) adalah yang paling umum.",
+    "faq3Q": "Apa perbedaan tes ini dengan buku Ishihara?",
+    "faq3A": "Buku Ishihara mendeteksi garis kebingungan warna, sedangkan tes ini mengukur sensitivitas kontras dinamis.",
+    "faq4Q": "Apakah mode malam mempengaruhi hasil?",
+    "faq4A": "Ya, filter cahaya biru mendistorsi warna. Nonaktifkan mode malam sebelum tes.",
+    "referencesTitle": "Referensi Ilmiah",
+    "ref1": "Farnsworth, D. (1943). The Farnsworth-Munsell 100-hue test. J. Opt. Soc. Am.",
+    "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
+    "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford Univ. Press.",
+    "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
   }
 }

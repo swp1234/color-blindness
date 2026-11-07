@@ -16,7 +16,7 @@
     "meta3": "⏱️ 10秒",
     "previewHint": "違う色を見つけられますか？",
     "button": "テスト開始",
-    "userCount": "45,000人以上がテスト済み"
+    "disclaimer": "本テストは教育・自己認識のための簡易測定ツールであり、眼科的な確定診断を行うものではありません。先天性色覚異常の確定診断は眼科専門医にご相談ください。"
   },
   "game": {
     "level": "レベル",
@@ -84,5 +84,34 @@
     "futureSelf": "未来の自分",
     "stressCheck": "ストレスチェック",
     "iqTest": "IQテスト"
+  },
+  "guide": {
+    "aboutTitle": "色覚・色感テストのご案内",
+    "methodologyTitle": "測定フレームワークと色差弁別の原理",
+    "methodologyDesc": "人間の色覚は網膜上の3種類の錐体細胞（青S、緑M、赤L）に基づいています。本テストはウェーバー・フェヒナーの法則と丁度可知差異（JND）の原理に基づき、微細な色差（Delta-E）を弁別する色コントラスト感度を測定します。",
+    "disclaimer": "本テストは教育・自己認識のための簡易測定ツールであり、眼科的な確定診断を行うものではありません。先天性色覚異常の確定診断は眼科専門医にご相談ください。",
+    "bandsTitle": "スコア層別の弁別能力解説",
+    "bandSuperiorTitle": "最上位の色覚弁別力 (Level 20–25):",
+    "bandSuperiorDesc": "微小なDelta-E色差を的確に見分ける卓越した色感度を持っています。",
+    "bandHighTitle": "優れた色覚弁別力 (Level 15–19):",
+    "bandHighDesc": "多様な色相環において安定した色コントラスト識別が可能です。",
+    "bandStandardTitle": "標準的な色覚 (Level 10–14):",
+    "bandStandardDesc": "日常生活や一般的なデジタル視覚作業に十分な正常3色覚です。",
+    "bandDevelopingTitle": "色覚トレーニング層 (Level 1–9):",
+    "bandDevelopingDesc": "高速な時間制限やディスプレイ環境の影響を受けやすい状態です。",
+    "faqTitle": "よくある質問 (FAQ)",
+    "faq1Q": "画面で色覚異常を正確に診断できますか？",
+    "faq1A": "ディスプレイの色域や明るさによって見え方が異なるため、確定診断には眼科での石原式色覚検査表などが必要です。",
+    "faq2Q": "主な色覚異常のタイプは何ですか？",
+    "faq2A": "最も多いのは赤緑色覚異常（2型色覚・1型色覚）です。青黄色覚異常や全色盲は極めて稀です。",
+    "faq3Q": "石原式検査表との違いは何ですか？",
+    "faq3A": "石原表は特定の混同色を検出するのに対し、本テストはファーンズワース・マンセル法に近いコントラスト感度を測定します。",
+    "faq4Q": "画面の明るさは結果に影響しますか？",
+    "faq4A": "はい。ブルーライトカットや暗い画面は色判別に影響するため、通常モードでの受検をお勧めします。",
+    "referencesTitle": "学術参考文献・標準規格",
+    "ref1": "Farnsworth, D. (1943). The Farnsworth-Munsell 100-hue test. J. Opt. Soc. Am.",
+    "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
+    "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford University Press.",
+    "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
   }
 }

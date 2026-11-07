@@ -16,7 +16,7 @@
     "meta3": "⏱️ 10秒",
     "previewHint": "你能找到不同的吗？",
     "button": "开始测试",
-    "userCount": "45,000+人已测试"
+    "disclaimer": "本测试仅供个人自测与科普参考，非眼科医学诊断。如需红绿色盲、色弱等临床诊断，请前往眼科进行专业检查。"
   },
   "game": {
     "level": "关卡",
@@ -84,5 +84,34 @@
     "futureSelf": "未来自画像",
     "stressCheck": "压力测试",
     "iqTest": "智商测试"
+  },
+  "guide": {
+    "aboutTitle": "色觉与色彩敏感度测试说明",
+    "methodologyTitle": "测评框架与色差辨别原理",
+    "methodologyDesc": "人类的色彩感知依赖视网膜上的三种视锥细胞（感应蓝、绿、红波长的S、M、L视锥）。本测试基于韦伯-费希纳定律与最小可觉差（JND）原理，评估在RGB色彩空间中微小色差（Delta-E）的辨别能力。",
+    "disclaimer": "本测试仅供个人自测与科普参考，非眼科医学诊断。如需红绿色盲、色弱等临床诊断，请前往眼科进行专业检查。",
+    "bandsTitle": "分数等级与色彩分辨力解析",
+    "bandSuperiorTitle": "顶尖色彩分辨力 (Level 20–25):",
+    "bandSuperiorDesc": "具备卓越的微小色差捕获能力，色彩敏感度出众。",
+    "bandHighTitle": "优秀色彩分辨力 (Level 15–19):",
+    "bandHighDesc": "在各主要色相群中保持稳定清晰的色彩对比分辨能力。",
+    "bandStandardTitle": "标准功能性色觉 (Level 10–14):",
+    "bandStandardDesc": "符合正常三色视觉标准，适合日常工作与生活。",
+    "bandDevelopingTitle": "色彩辨别待提升 (Level 1–9):",
+    "bandDevelopingDesc": "在倒计时压力下辨别微弱色差可能受屏幕色彩调校或环境光照影响。",
+    "faqTitle": "常见问题解答 (FAQ)",
+    "faq1Q": "电子屏幕能否准确诊断色盲？",
+    "faq1A": "屏幕色域（sRGB、DCI-P3）及亮度各有差异，临床确诊需在标准光源下使用假同色图（如石原氏色盲检查图）。",
+    "faq2Q": "常见的色觉异常有哪些？",
+    "faq2A": "红绿色盲/色弱最为常见（约占男性的6%–8%），蓝黄色盲及全色盲极为罕见。",
+    "faq3Q": "本测试与石原氏色盲图有何不同？",
+    "faq3A": "石原图侧重检测红绿混淆线，而本测试测量色彩对比度敏感阈值与色彩渐变辨别力。",
+    "faq4Q": "护眼模式或亮度是否影响得分？",
+    "faq4A": "是的。防蓝光滤镜会改变光谱色差，建议在正常明亮光线及标准色彩模式下测试。",
+    "referencesTitle": "学术参考文献与标准框架",
+    "ref1": "Farnsworth, D. (1943). The Farnsworth-Munsell 100-hue test. J. Opt. Soc. Am.",
+    "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
+    "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford University Press.",
+    "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
   }
 }

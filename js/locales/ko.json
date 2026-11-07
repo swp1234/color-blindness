@@ -16,7 +16,7 @@
     "meta3": "⏱️ 10초 타이머",
     "previewHint": "다른 색을 찾을 수 있나요?",
     "button": "테스트 시작",
-    "userCount": "45,000+ 명이 색각을 테스트했습니다"
+    "disclaimer": "본 테스트는 교육 및 자기이해를 위한 인터랙티브 자가점검 도구이며, 안과의학적 진단이 아닙니다. 색약, 적록색맹, 청황색맹 등 임상적 색각 이상 진단은 반드시 안과 전문의의 정밀 검진을 받으시기 바랍니다."
   },
   "game": {
     "level": "레벨",
@@ -37,7 +37,7 @@
     "grade": {
       "legendary": {
         "title": "전설적인 색각!",
-        "desc": "상위 1%의 색 감수성! 대부분의 사람이 볼 수 없는 극미한 색 차이를 구별할 수 있습니다."
+        "desc": "최상위 색 변별력! 미세한 색차(Delta-E)를 포착하는 탁월한 색 감수성을 보였습니다."
       },
       "excellent": {
         "title": "뛰어난 색각!",
@@ -84,5 +84,34 @@
     "futureSelf": "미래 자아",
     "stressCheck": "스트레스 지수",
     "iqTest": "IQ 테스트"
+  },
+  "guide": {
+    "aboutTitle": "색각 및 색 감수성 검사 안내",
+    "methodologyTitle": "측정 프레임워크 및 색채 변별 원리",
+    "methodologyDesc": "인간의 색채 지각은 망막의 세 가지 원추세포(청색 S, 녹색 M, 적색 L)의 파장 반응에 기반합니다. 본 테스트는 베버-페히너 법칙(Weber-Fechner Law)과 최소식별차(JND) 원리를 바탕으로 점진적으로 축소되는 델타-E(색차)를 변별하는 색채 대비 민감도를 측정합니다. 타일 격자가 확장되고 미세한 색조 차이가 줄어들수록 시각 시스템의 색상 분리 및 인지 속도를 정밀하게 평가합니다.",
+    "disclaimer": "본 테스트는 교육 및 자기이해를 위한 인터랙티브 자가점검 도구이며, 안과의학적 진단이 아닙니다. 색약, 적록색맹, 청황색맹 등 임상적 색각 이상 진단은 반드시 안과 전문의의 정밀 검진을 받으시기 바랍니다.",
+    "bandsTitle": "점수 구간별 변별 능력 해석",
+    "bandSuperiorTitle": "최상위 색 변별력 (Level 20–25):",
+    "bandSuperiorDesc": "극미한 델타-E 색차를 정확하게 포착하는 탁월한 색 감수성. 스펙트럼 전반에서 뛰어난 색채 분별력을 보입니다.",
+    "bandHighTitle": "우수한 색 변별력 (Level 15–19):",
+    "bandHighDesc": "다양한 색상군에서 안정적인 색채 대비 해상도를 유지하는 높은 수준의 색 인지력.",
+    "bandStandardTitle": "표준 기능적 색각 (Level 10–14):",
+    "bandStandardDesc": "일상생활 및 일반적인 디지털 시각 작업에 적합한 표준 삼색형(Trichromacy) 색각.",
+    "bandDevelopingTitle": "색각 훈련 필요 (Level 1–9):",
+    "bandDevelopingDesc": "짧은 제한시간 내 미세 색차 구별에 어려움이 있거나, 디스플레이 색역(sRGB) 및 주변 조명의 영향을 받았을 수 있습니다.",
+    "faqTitle": "자주 묻는 질문 (FAQ)",
+    "faq1Q": "스마트폰이나 모니터 화면으로 색맹을 정확히 진단할 수 있나요?",
+    "faq1A": "디지털 화면은 기기마다 패널 색역(sRGB, DCI-P3), 밝기, 시야각이 달라 상대적인 색채 변별 민감도 측정에는 유용하지만, 공식적인 임상 진단은 표준 조명 하에서 이시하라(Ishihara) 가성동색표나 판스워스-먼셀 검사를 통해 이루어져야 합니다.",
+    "faq2Q": "색각 이상(색맹/색약)의 주된 유형은 무엇인가요?",
+    "faq2A": "적록색각 이상이 가장 흔하며, 제2색약(녹색 원추세포 이상, 남성의 약 5%)과 제1색약(적색 원추세포 이상, 남성의 약 1%)이 대부분을 차지합니다. 제3색각 이상(청황색약)이나 전색맹(Achromatopsia)은 매우 드뭅니다.",
+    "faq3Q": "이 테스트는 이시하라 색각 검사표와 어떻게 다른가요?",
+    "faq3A": "이시하라 검사표는 혼동선을 활용해 특정 적록 결함을 탐지하는 점 패턴 방식인 반면, 본 테스트는 판스워스-먼셀 원리와 유사하게 색조 대비의 최소식별차(JND)를 동적으로 측정하는 대비 민감도 검사입니다.",
+    "faq4Q": "화면 밝기나 야간 모드가 결과에 영향을 미치나요?",
+    "faq4A": "네. 블루라이트 차단 필터(야간 모드), 반사광, 낮은 화면 밝기는 색차 인지를 왜곡할 수 있습니다. 정확한 측정을 위해 블루라이트 필터를 끄고 적절한 밝기에서 테스트하세요.",
+    "referencesTitle": "학술 참고문헌 및 표준 프레임워크",
+    "ref1": "Farnsworth, D. (1943). The Farnsworth-Munsell 100-hue and dichotomous tests for color vision. Journal of the Optical Society of America, 33(10), 568–578.",
+    "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
+    "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision (2nd ed.). Oxford University Press.",
+    "ref4": "International Commission on Illumination (CIE). (2004). Colorimetry (3rd ed.). CIE 15:2004."
   }
 }

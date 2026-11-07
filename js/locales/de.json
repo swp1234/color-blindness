@@ -16,7 +16,7 @@
     "meta3": "⏱️ 10s",
     "previewHint": "Erkennst du den Unterschied?",
     "button": "Test starten",
-    "userCount": "45.000+ haben getestet"
+    "disclaimer": "Dieser Test dient Bildungs- und Selbsteinschätzungszwecken und ist keine augenärztliche Diagnose. Wenden Sie sich bei Verdacht auf Farbenblindheit an einen Facharzt."
   },
   "game": {
     "level": "Level",
@@ -37,7 +37,7 @@
     "grade": {
       "legendary": {
         "title": "Legendäres Farbsehen!",
-        "desc": "Top 1%!"
+        "desc": "exceptional!"
       },
       "excellent": {
         "title": "Ausgezeichnetes Farbsehen!",
@@ -84,5 +84,34 @@
     "futureSelf": "Zukunfts-Ich",
     "stressCheck": "Stress-Test",
     "iqTest": "IQ-Test"
+  },
+  "guide": {
+    "aboutTitle": "Über den Farbsensitivitäts-Test",
+    "methodologyTitle": "Bewertungsrahmen & Farbunterscheidung",
+    "methodologyDesc": "Die menschliche Farbwahrnehmung basiert auf drei Zapfentypen in der Netzhaut. Dieser Test bewertet Ihre Schwelle für gerade noch wahrnehmbare Farbunterschiede (JND) nach dem Weber-Fechner-Gesetz.",
+    "disclaimer": "Dieser Test dient Bildungs- und Selbsteinschätzungszwecken und ist keine augenärztliche Diagnose. Wenden Sie sich bei Verdacht auf Farbenblindheit an einen Facharzt.",
+    "bandsTitle": "Ergebnisstufen und Farbauflösung",
+    "bandSuperiorTitle": "Hervorragende Unterscheidung (Level 20–25):",
+    "bandSuperiorDesc": "Außergewöhnliche Nuancierung bei minimalen Delta-E-Farbunterschieden.",
+    "bandHighTitle": "Hohe normale Unterscheidung (Level 15–19):",
+    "bandHighDesc": "Starke Farbkontrastauflösung über verschiedene Farbbereiche hinweg.",
+    "bandStandardTitle": "Standard-Farbsehen (Level 10–14):",
+    "bandStandardDesc": "Normales trichromatisches Farbsehen für Alltag und Beruf.",
+    "bandDevelopingTitle": "Entwicklungsfähig (Level 1–9):",
+    "bandDevelopingDesc": "Einschränkungen unter Zeitdruck oder durch unkalibrierte Bildschirme.",
+    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "faq1Q": "Kann ein Bildschirm Farbenblindheit zuverlässig diagnostizieren?",
+    "faq1A": "Nein, da Farbräume variieren. Eine formelle Diagnose erfordert Ishihara-Farbtafeln unter standardisiertem Licht.",
+    "faq2Q": "Was sind die häufigsten Farbsehschwächen?",
+    "faq2A": "Rot-Grün-Schwächen (Deuteranomalie und Protanomalie) sind am häufigsten. Blau-Gelb-Schwächen sind sehr selten.",
+    "faq3Q": "Wie unterscheidet sich dieser Test von Ishihara-Tafeln?",
+    "faq3A": "Ishihara erkennt spezifische Verwechslungslinien, während dieser Test Kontrastempfindlichkeit misst.",
+    "faq4Q": "Beeinflusst der Nachtmodus das Ergebnis?",
+    "faq4A": "Ja. Blaulichtfilter verändern das Farbspektrum und sollten deaktiviert werden.",
+    "referencesTitle": "Wissenschaftliche Referenzen",
+    "ref1": "Farnsworth, D. (1943). The Farnsworth-Munsell 100-hue test. J. Opt. Soc. Am.",
+    "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
+    "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford Univ. Press.",
+    "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
   }
 }

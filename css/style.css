@@ -530,3 +530,134 @@ body {
     .start-meta span { font-size: 11px; padding: 4px 10px; }
     .result-stats { gap: 8px; }
 }
+
+/* === Educational Guide & FAQ Section === */
+.about-test {
+    width: 100%;
+    max-width: 480px;
+    margin: 20px auto 0;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--surface);
+    text-align: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.about-test summary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 46px;
+    padding: 13px 18px;
+    color: var(--primary-light);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    list-style: none;
+    box-sizing: border-box;
+    touch-action: manipulation;
+}
+
+.about-test summary::-webkit-details-marker {
+    display: none;
+}
+
+.about-test summary::after {
+    content: '\25BC';
+    margin-left: auto;
+    color: var(--text-sec);
+    font-size: 11px;
+    transition: transform 0.25s ease;
+}
+
+.about-test[open] summary::after {
+    transform: rotate(180deg);
+}
+
+.about-test-body {
+    padding: 0 18px 20px;
+    box-sizing: border-box;
+}
+
+.about-test-body p {
+    margin: 0 0 12px;
+    color: var(--text-sec);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.about-test-body .about-test-note {
+    margin-bottom: 14px;
+    color: var(--text-dim);
+    font-size: 12px;
+    font-style: italic;
+    line-height: 1.6;
+    border-left: 2px solid var(--primary-dark);
+    padding-left: 8px;
+}
+
+.about-section-heading {
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 700;
+    margin: 18px 0 10px;
+    border-left: 3px solid var(--primary);
+    padding-left: 8px;
+}
+
+.about-guide-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 14px;
+}
+
+.about-guide-list li {
+    font-size: 13px;
+    color: var(--text-sec);
+    line-height: 1.6;
+    margin-bottom: 8px;
+    padding-left: 12px;
+    position: relative;
+}
+
+.about-guide-list li::before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+}
+
+.about-faq-item {
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+.about-faq-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.about-faq-q {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+}
+
+.about-faq-a {
+    font-size: 13px;
+    color: var(--text-sec);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.trust-boundary-note {
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-top: 14px;
+    line-height: 1.5;
+    text-align: center;
+}

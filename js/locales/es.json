@@ -16,7 +16,7 @@
     "meta3": "⏱️ 10s",
     "previewHint": "¿Ves la diferencia?",
     "button": "Comenzar",
-    "userCount": "45.000+ lo han probado"
+    "disclaimer": "Esta prueba es una herramienta educativa y no constituye un diagnóstico médico oftálmico. Para evaluaciones clínicas de daltonismo, consulte a un oftalmólogo u optometrista."
   },
   "game": {
     "level": "Nivel",
@@ -37,7 +37,7 @@
     "grade": {
       "legendary": {
         "title": "¡Visión legendaria!",
-        "desc": "¡Sensibilidad top 1%!"
+        "desc": "¡Sensibilidad exceptional!"
       },
       "excellent": {
         "title": "¡Visión excelente!",
@@ -84,5 +84,34 @@
     "futureSelf": "Yo Futuro",
     "stressCheck": "Test de Estrés",
     "iqTest": "Test de CI"
+  },
+  "guide": {
+    "aboutTitle": "Información sobre el Test de Sensibilidad al Color",
+    "methodologyTitle": "Marco de Evaluación y Discriminación Cromática",
+    "methodologyDesc": "La percepción humana del color se basa en tres tipos de conos retinianos (azul, verde y rojo). Esta prueba evalúa su umbral de diferencia apenas perceptible (JND) y la ley de Weber-Fechner en espacios de color RGB.",
+    "disclaimer": "Esta prueba es una herramienta educativa y no constituye un diagnóstico médico oftálmico. Para evaluaciones clínicas de daltonismo, consulte a un oftalmólogo u optometrista.",
+    "bandsTitle": "Interpretación de Niveles y Precisión Cromática",
+    "bandSuperiorTitle": "Discriminación Superior (Niveles 20–25):",
+    "bandSuperiorDesc": "Excepcional sensibilidad para detectar diferencias cromáticas mínimas Delta-E.",
+    "bandHighTitle": "Alta Discriminación Normal (Niveles 15–19):",
+    "bandHighDesc": "Resolución cromática sólida y precisa en múltiples gamas de color.",
+    "bandStandardTitle": "Discriminación Estándar (Niveles 10–14):",
+    "bandStandardDesc": "Visión tricromática normal adecuada para tareas visuales cotidianas.",
+    "bandDevelopingTitle": "En Desarrollo (Niveles 1–9):",
+    "bandDevelopingDesc": "Dificultad bajo presión de tiempo o posibles limitaciones del monitor.",
+    "faqTitle": "Preguntas Frecuentes (FAQ)",
+    "faq1Q": "¿Puede una pantalla digital diagnosticar el daltonismo?",
+    "faq1A": "Las pantallas varían en brillo y calibración de color. Para un diagnóstico formal se requieren pruebas clínicas estandarizadas como las láminas de Ishihara.",
+    "faq2Q": "¿Cuáles son los tipos más comunes de daltonismo?",
+    "faq2A": "Las deficiencias rojo-verde (deuteranomalía y protanomalía) son las más frecuentes. Los defectos azul-amarillo y la acromatopsia son raros.",
+    "faq3Q": "¿Cómo se diferencia esta prueba de las láminas de Ishihara?",
+    "faq3A": "Las láminas de Ishihara detectan confusión cromática específica, mientras que esta prueba evalúa la sensibilidad al contraste cromático.",
+    "faq4Q": "¿Afecta el brillo de la pantalla a los resultados?",
+    "faq4A": "Sí. Los filtros nocturnos o pantallas poco iluminadas distorsionan el color. Se recomienda luz ambiente neutra.",
+    "referencesTitle": "Referencias Académicas y Marcos Empíricos",
+    "ref1": "Farnsworth, D. (1943). The Farnsworth-Munsell 100-hue test. J. Opt. Soc. Am.",
+    "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
+    "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford Univ. Press.",
+    "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
   }
 }

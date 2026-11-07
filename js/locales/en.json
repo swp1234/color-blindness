@@ -16,7 +16,7 @@
     "meta3": "⏱️ 10s Timer",
     "previewHint": "Can you spot the different one?",
     "button": "Start Test",
-    "userCount": "45,000+ people have tested their color vision"
+    "disclaimer": "This test is designed for personal awareness and educational assessment. It is not an ophthalmic medical diagnosis. If you suspect clinical color vision deficiency (such as protanopia, deuteranopia, or tritanopia), consult a certified optometrist or ophthalmologist."
   },
   "game": {
     "level": "Level",
@@ -37,7 +37,7 @@
     "grade": {
       "legendary": {
         "title": "Legendary Color Vision!",
-        "desc": "Your color sensitivity is at the top 1%!"
+        "desc": "Exceptional color perception! You can spot minimal chromatic differences."
       },
       "excellent": {
         "title": "Excellent Color Vision!",
@@ -84,5 +84,34 @@
     "futureSelf": "Future Self",
     "stressCheck": "Stress Check",
     "iqTest": "IQ Test"
+  },
+  "guide": {
+    "aboutTitle": "About Color Sensitivity Assessment",
+    "methodologyTitle": "Assessment Framework & Chromatic Discrimination",
+    "methodologyDesc": "Human chromatic perception relies on retinal cone photoreceptors (S, M, and L cones sensitive to blue, green, and red wavelengths). This assessment evaluates your just-noticeable difference (JND) threshold and Weber-Fechner chromatic contrast discrimination across RGB color spaces. As the tile grid expands and delta-E differences shrink, it measures your visual system's capacity to isolate subtle chromatic variations under progressive time pressure.",
+    "disclaimer": "This test is designed for personal awareness and educational assessment. It is not an ophthalmic medical diagnosis. If you suspect clinical color vision deficiency (such as protanopia, deuteranopia, or tritanopia), consult a certified optometrist or ophthalmologist.",
+    "bandsTitle": "Understanding Score Tiers & Discrimination Accuracy",
+    "bandSuperiorTitle": "Superior Discrimination (Levels 20–25):",
+    "bandSuperiorDesc": "Exceptional nuance in spotting subtle delta-E chromatic differences. High sensitivity across spectral transitions.",
+    "bandHighTitle": "High Normal Discrimination (Levels 15–19):",
+    "bandHighDesc": "Strong chromatic contrast resolution with robust accuracy across diverse hue families.",
+    "bandStandardTitle": "Standard Functional Discrimination (Levels 10–14):",
+    "bandStandardDesc": "Typical trichromatic color discrimination suitable for daily visual and digital tasks.",
+    "bandDevelopingTitle": "Developing Discrimination (Levels 1–9):",
+    "bandDevelopingDesc": "Difficulty isolating minimal color differences under rapid timing, or potential display calibration and lighting constraints.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Q": "Can a digital screen accurately diagnose color blindness?",
+    "faq1A": "Screens vary in panel gamut (sRGB, DCI-P3), brightness, and viewing angle. While digital tests provide a reliable comparative measure of chromatic discrimination speed, formal clinical diagnoses require physical Ishihara or Hardy-Rand-Rittler pseudoisochromatic plates under standardized illumination.",
+    "faq2Q": "What are the most common color vision deficiencies?",
+    "faq2A": "Red-green color deficiencies are the most prevalent, including Deuteranomaly (partial green cone sensitivity, affecting ~5% of biological males) and Protanomaly (reduced red cone sensitivity, ~1%). Tritan (blue-yellow) defects and Achromatopsia (total monochromacy) are rare.",
+    "faq3Q": "How does this test differ from Ishihara plates?",
+    "faq3A": "Ishihara plates use dot confusion patterns specifically designed to detect congenital red-green defects. This test measures chromatic contrast sensitivity and Weber-Fechner just-noticeable differences across varying hue saturations.",
+    "faq4Q": "Does display brightness and ambient light affect my score?",
+    "faq4A": "Yes. Glare, low screen brightness, blue-light reduction filters (e.g., Night Shift), or non-calibrated displays can alter chromatic contrast. For optimal results, test in an evenly lit environment with filters disabled.",
+    "referencesTitle": "References & Empirical Frameworks",
+    "ref1": "Farnsworth, D. (1943). The Farnsworth-Munsell 100-hue and dichotomous tests for color vision. Journal of the Optical Society of America, 33(10), 568–578.",
+    "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
+    "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision (2nd ed.). Oxford University Press.",
+    "ref4": "International Commission on Illumination (CIE). (2004). Colorimetry (3rd ed.). CIE 15:2004."
   }
 }

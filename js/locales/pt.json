@@ -16,7 +16,7 @@
     "meta3": "⏱️ 10s",
     "previewHint": "Consegue ver?",
     "button": "Iniciar",
-    "userCount": "45.000+ testaram"
+    "disclaimer": "Este teste tem fins educativos e não substitui uma consulta oftalmológica especializada. Para diagnóstico de daltonismo, procure um oftalmologista."
   },
   "game": {
     "level": "Nível",
@@ -37,7 +37,7 @@
     "grade": {
       "legendary": {
         "title": "Visão lendária!",
-        "desc": "Top 1%!"
+        "desc": "exceptional!"
       },
       "excellent": {
         "title": "Visão excelente!",
@@ -84,5 +84,34 @@
     "futureSelf": "Eu Futuro",
     "stressCheck": "Teste de Estresse",
     "iqTest": "Teste de QI"
+  },
+  "guide": {
+    "aboutTitle": "Sobre o Teste de Sensibilidade a Cores",
+    "methodologyTitle": "Estrutura de Avaliação e Discriminação Cromática",
+    "methodologyDesc": "A percepção cromática baseia-se em três tipos de cones retinianos. Este teste mede seu limiar de diferença perceptível (JND) baseado na lei de Weber-Fechner.",
+    "disclaimer": "Este teste tem fins educativos e não substitui uma consulta oftalmológica especializada. Para diagnóstico de daltonismo, procure um oftalmologista.",
+    "bandsTitle": "Interpretação dos Níveis de Pontuação",
+    "bandSuperiorTitle": "Discriminação Superior (Níveis 20–25):",
+    "bandSuperiorDesc": "Sensibilidade cromática excepcional em variações mínimas Delta-E.",
+    "bandHighTitle": "Alta Discriminação Normal (Níveis 15–19):",
+    "bandHighDesc": "Ótima capacidade de contraste em diversas famílias de cores.",
+    "bandStandardTitle": "Discriminação Padrão (Níveis 10–14):",
+    "bandStandardDesc": "Visão tricromática normal para tarefas cotidianas e digitais.",
+    "bandDevelopingTitle": "Em Desenvolvimento (Níveis 1–9):",
+    "bandDevelopingDesc": "Dificuldade sob pressão de tempo ou devido a calibração de tela.",
+    "faqTitle": "Perguntas Frequentes (FAQ)",
+    "faq1Q": "Telas digitais podem diagnosticar o daltonismo com precisão?",
+    "faq1A": "Não com precisão clínica total. Diagnósticos formais exigem o teste de Ishihara sob iluminação padrão.",
+    "faq2Q": "Quais são as alterações de visão cromática mais comuns?",
+    "faq2A": "Deficiências vermelho-verde (deuteranomalia e protanomalia) são as mais frequentes.",
+    "faq3Q": "Qual a diferença para a tabela de Ishihara?",
+    "faq3A": "A tabela de Ishihara identifica linhas de confusão, enquanto este teste avalia sensibilidade ao contraste.",
+    "faq4Q": "O filtro de luz azul atrapalha o teste?",
+    "faq4A": "Sim, filtros alteram a temperatura de cor da tela e devem ser desativados.",
+    "referencesTitle": "Referências Acadêmicas",
+    "ref1": "Farnsworth, D. (1943). The Farnsworth-Munsell 100-hue test. J. Opt. Soc. Am.",
+    "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
+    "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford Univ. Press.",
+    "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
   }
 }

@@ -16,7 +16,7 @@
     "meta3": "⏱️ 10s",
     "previewHint": "Voyez-vous la différence ?",
     "button": "Commencer",
-    "userCount": "45 000+ ont testé"
+    "disclaimer": "Ce test est un outil d'auto-évaluation éducatif et ne constitue pas un diagnostic médical ophtalmologique. Consultez un professionnel pour un diagnostic formel."
   },
   "game": {
     "level": "Niveau",
@@ -37,7 +37,7 @@
     "grade": {
       "legendary": {
         "title": "Vision légendaire !",
-        "desc": "Top 1% !"
+        "desc": "exceptional !"
       },
       "excellent": {
         "title": "Vision excellente !",
@@ -84,5 +84,34 @@
     "futureSelf": "Soi Futur",
     "stressCheck": "Test de Stress",
     "iqTest": "Test de QI"
+  },
+  "guide": {
+    "aboutTitle": "À propos du Test de Sensibilité aux Couleurs",
+    "methodologyTitle": "Cadre d'Évaluation et Discrimination Chromatique",
+    "methodologyDesc": "La perception humaine des couleurs repose sur trois types de cônes rétiniens. Ce test évalue votre seuil de différence à peine perceptible (JND) selon la loi de Weber-Fechner.",
+    "disclaimer": "Ce test est un outil d'auto-évaluation éducatif et ne constitue pas un diagnostic médical ophtalmologique. Consultez un professionnel pour un diagnostic formel.",
+    "bandsTitle": "Interprétation des Scores et Précision",
+    "bandSuperiorTitle": "Discrimination Supérieure (Niveaux 20–25):",
+    "bandSuperiorDesc": "Sensibilité exceptionnelle pour repérer des micro-écarts de couleur Delta-E.",
+    "bandHighTitle": "Haute Discrimination Normale (Niveaux 15–19):",
+    "bandHighDesc": "Excellente résolution des contrastes sur diverses teintes chromatiques.",
+    "bandStandardTitle": "Discrimination Standard (Niveaux 10–14):",
+    "bandStandardDesc": "Vision trichromate normale adaptée aux activités visuelles quotidiennes.",
+    "bandDevelopingTitle": "En Développement (Niveaux 1–9):",
+    "bandDevelopingDesc": "Sensibilité influencée par la vitesse de réponse ou le réglage d'écran.",
+    "faqTitle": "Foire Aux Questions (FAQ)",
+    "faq1Q": "Un écran peut-il diagnostiquer le daltonisme avec certitude ?",
+    "faq1A": "Les écrans diffèrent en luminosité et calibrage. Un diagnostic médical nécessite les planches d'Ishihara en cabinet.",
+    "faq2Q": "Quelles sont les anomalies de la vision des couleurs les plus courantes ?",
+    "faq2A": "Les déficits rouge-vert (deutéranomalie, protanomalie) touchent environ 8% des hommes. Les déficits bleu-jaune sont très rares.",
+    "faq3Q": "En quoi ce test diffère-t-il des planches d'Ishihara ?",
+    "faq3A": "Les planches d'Ishihara détectent les confusions de teintes, tandis que ce test mesure la sensibilité au contraste.",
+    "faq4Q": "Le mode nuit affecte-t-il le score ?",
+    "faq4A": "Oui, les filtres de lumière bleue modifient les couleurs. Désactivez-les pour le test.",
+    "referencesTitle": "Références Scientifiques",
+    "ref1": "Farnsworth, D. (1943). The Farnsworth-Munsell 100-hue test. J. Opt. Soc. Am.",
+    "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
+    "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford Univ. Press.",
+    "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
   }
 }
