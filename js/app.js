@@ -525,10 +525,8 @@ function preserveLanguageLinks() {
         try {
             const url = new URL(href, window.location.origin);
             if (url.origin === window.location.origin || url.hostname === 'dopabrain.com' || url.hostname.endsWith('.dopabrain.com')) {
-                if (lang && lang !== 'en') {
+                if (lang) {
                     url.searchParams.set('lang', lang);
-                } else {
-                    url.searchParams.delete('lang');
                 }
                 if (link.closest('.related-grid') || link.classList.contains('related-card')) {
                     url.searchParams.set('source', 'color_blindness_rec');
