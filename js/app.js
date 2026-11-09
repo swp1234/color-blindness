@@ -373,12 +373,37 @@ function endGame() {
     );
     gradeEl.innerHTML = gradeLines.join('<br>');
 
-    // GA4 event
+    // Next Step Funnel Bridge
+    const nextStepCard = document.getElementById('next-step-card');
+    if (nextStepCard) {
+        const isHigh = sensitivity >= 60 || state.level >= 12;
+        const nextTitle = document.getElementById('next-step-title');
+        const nextDesc = document.getElementById('next-step-desc');
+        const nextCta = document.getElementById('next-step-cta');
+        if (isHigh) {
+            if (nextTitle) nextTitle.textContent = _t('nextStep.highTitle', 'Explore Sensory & Environmental Sensitivity');
+            if (nextDesc) nextDesc.textContent = _t('nextStep.highDesc', 'High chromatic discrimination often correlates with deeper sensory processing. See where you fall on the HSP sensory sensitivity scale.');
+            if (nextCta) {
+                nextCta.textContent = _t('nextStep.highCta', 'Take HSP Test →');
+                nextCta.href = '/hsp-test/';
+                nextCta.setAttribute('data-related-route', '/hsp-test/');
+            }
+        } else {
+            if (nextTitle) nextTitle.textContent = _t('nextStep.lowTitle', 'Strengthen Pattern & Logic Reasoning');
+            if (nextDesc) nextDesc.textContent = _t('nextStep.lowDesc', 'Challenge your visual logic and rule deduction across 10 language-neutral symbol and sequence puzzles.');
+            if (nextCta) {
+                nextCta.textContent = _t('nextStep.lowCta', 'Start IQ Puzzle →');
+                nextCta.href = '/iq-test/';
+                nextCta.setAttribute('data-related-route', '/iq-test/');
+            }
+        }
+    }
+
+    // GA4 event (privacy-safe technical metadata only)
     if (typeof gtag === 'function') {
         gtag('event', 'color_test_complete', {
-            score: sensitivity,
             level_reached: state.level,
-            total_score: state.score
+            rounds_cleared: state.correctCount
         });
     }
 
@@ -538,13 +563,13 @@ function preserveLanguageLinks() {
 }
 
 function initCtaTracking() {
-    document.querySelectorAll('.related-card, .back-link').forEach(link => {
+    document.querySelectorAll('.related-card, .back-link, .next-step-cta').forEach(link => {
         if (link.dataset.hasCtaListener) return;
         link.dataset.hasCtaListener = 'true';
         link.addEventListener('click', function() {
             if (typeof gtag === 'function') {
                 gtag('event', 'content_cta_click', {
-                    cta_type: this.classList.contains('related-card') ? 'companion_card' : 'back_link',
+                    cta_type: this.classList.contains('next-step-cta') ? 'next_step_card' : (this.classList.contains('related-card') ? 'companion_card' : 'back_link'),
                     destination: this.getAttribute('href') || '',
                     source: 'color_blindness'
                 });

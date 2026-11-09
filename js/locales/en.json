@@ -83,7 +83,8 @@
     "colorPalette": "Color Palette",
     "futureSelf": "Future Self",
     "stressCheck": "Stress Check",
-    "iqTest": "IQ Test"
+    "iqTest": "IQ Test",
+    "hspTest": "HSP Test"
   },
   "guide": {
     "aboutTitle": "About Color Sensitivity Assessment",
@@ -113,5 +114,14 @@
     "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
     "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision (2nd ed.). Oxford University Press.",
     "ref4": "International Commission on Illumination (CIE). (2004). Colorimetry (3rd ed.). CIE 15:2004."
+  },
+  "nextStep": {
+    "label": "Recommended Next Step",
+    "highTitle": "Explore Sensory & Environmental Sensitivity",
+    "highDesc": "High chromatic discrimination often correlates with deeper sensory processing. See where you fall on the HSP sensory sensitivity scale.",
+    "highCta": "Take HSP Test →",
+    "lowTitle": "Strengthen Pattern & Logic Reasoning",
+    "lowDesc": "Challenge your visual logic and rule deduction across 10 language-neutral symbol and sequence puzzles.",
+    "lowCta": "Start IQ Puzzle →"
   }
 }

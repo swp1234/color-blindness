@@ -83,7 +83,8 @@
     "colorPalette": "Palet Warna",
     "futureSelf": "Diri Masa Depan",
     "stressCheck": "Tes Stres",
-    "iqTest": "Tes IQ"
+    "iqTest": "Tes IQ",
+    "hspTest": "Tes HSP"
   },
   "guide": {
     "aboutTitle": "Tentang Tes Sensitivitas Warna",
@@ -113,5 +114,14 @@
     "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
     "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford Univ. Press.",
     "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
+  },
+  "nextStep": {
+    "label": "Langkah selanjutnya yang disarankan",
+    "highTitle": "Eksplorasi Sensitivitas Sensorik & Lingkungan",
+    "highDesc": "Kemampuan membedakan warna yang tinggi sering berkorelasi dengan pemrosesan sensorik yang dalam. Cek profil Anda di tes HSP.",
+    "highCta": "Mulai Tes HSP →",
+    "lowTitle": "Tingkatkan Penalaran Pola & Logika",
+    "lowDesc": "Asah logika visual Anda melalui 10 teka-teki simbol dan urutan netral bahasa.",
+    "lowCta": "Mulai Teka-teki IQ →"
   }
 }

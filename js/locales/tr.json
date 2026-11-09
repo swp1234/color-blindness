@@ -83,7 +83,8 @@
     "colorPalette": "Renk Paleti",
     "futureSelf": "Gelecekteki Ben",
     "stressCheck": "Stres Testi",
-    "iqTest": "IQ Testi"
+    "iqTest": "IQ Testi",
+    "hspTest": "HSP Testi"
   },
   "guide": {
     "aboutTitle": "Renk Duyarlılığı Değerlendirmesi Hakkında",
@@ -113,5 +114,14 @@
     "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
     "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford Univ. Press.",
     "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
+  },
+  "nextStep": {
+    "label": "Önerilen sonraki adım",
+    "highTitle": "Duyusal ve Çevresel Hassasiyeti Keşfedin",
+    "highDesc": "Yüksek renk ayrımı yeteneği genellikle derin duyusal işleme ile ilişkilidir. HSP hassasiyet testinde profilinizi görün.",
+    "highCta": "HSP Testine Başla →",
+    "lowTitle": "Örüntü Tanıma ve Mantıksal Akıl Yürütmeyi Güçlendirin",
+    "lowDesc": "10 dil-bağımsız sembol ve sayı bulmacasıyla görsel mantık yeteneğinizi test edin.",
+    "lowCta": "IQ Bulmacasına Başla →"
   }
 }

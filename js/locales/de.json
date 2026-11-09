@@ -83,7 +83,8 @@
     "colorPalette": "Farbpalette",
     "futureSelf": "Zukunfts-Ich",
     "stressCheck": "Stress-Test",
-    "iqTest": "IQ-Test"
+    "iqTest": "IQ-Test",
+    "hspTest": "HSP-Test"
   },
   "guide": {
     "aboutTitle": "Über den Farbsensitivitäts-Test",
@@ -113,5 +114,14 @@
     "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
     "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford Univ. Press.",
     "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
+  },
+  "nextStep": {
+    "label": "Empfohlener nächster Schritt",
+    "highTitle": "Sensorische & Umwelt-Sensibilität Erkunden",
+    "highDesc": "Hohe Farbdifferenzierung korreliert oft mit intensiver Reizverarbeitung. Prüfen Sie Ihr Profil im HSP-Test.",
+    "highCta": "HSP-Test starten →",
+    "lowTitle": "Mustererkennung & Logisches Denken Trainieren",
+    "lowDesc": "Fordern Sie Ihre visuelle Logik mit 10 sprachneutralen Symbol- und Zahlenrätseln heraus.",
+    "lowCta": "IQ-Rätsel starten →"
   }
 }

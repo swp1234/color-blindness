@@ -83,7 +83,8 @@
     "colorPalette": "カラーパレット",
     "futureSelf": "未来の自分",
     "stressCheck": "ストレスチェック",
-    "iqTest": "IQテスト"
+    "iqTest": "IQテスト",
+    "hspTest": "HSP診断"
   },
   "guide": {
     "aboutTitle": "色覚・色感テストのご案内",
@@ -113,5 +114,14 @@
     "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
     "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford University Press.",
     "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
+  },
+  "nextStep": {
+    "label": "おすすめの次のステップ",
+    "highTitle": "感覚処理と環境感受性の診断",
+    "highDesc": "高い色彩識別能力は深い感覚情報処理と密接に関連しています。HSP診断であなたの感覚感受性を確認しましょう。",
+    "highCta": "HSP診断を始める →",
+    "lowTitle": "パターン認識と流動性推理の強化",
+    "lowDesc": "10問の言語中立パズルで視覚ロジックと規則推理力を鍛えましょう。",
+    "lowCta": "IQパズルに挑戦 →"
   }
 }

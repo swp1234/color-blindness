@@ -83,7 +83,8 @@
     "colorPalette": "रंग पैलेट",
     "futureSelf": "भविष्य का आत्म",
     "stressCheck": "तनाव जांच",
-    "iqTest": "आईक्यू टेस्ट"
+    "iqTest": "आईक्यू टेस्ट",
+    "hspTest": "HSP टेस्ट"
   },
   "guide": {
     "aboutTitle": "रंग संवेदनशीलता परीक्षण के बारे में",
@@ -113,5 +114,14 @@
     "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
     "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford Univ. Press.",
     "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
+  },
+  "nextStep": {
+    "label": "सुझाया गया अगला कदम",
+    "highTitle": "संवेदी और पर्यावरणीय संवेदनशीलता का परीक्षण",
+    "highDesc": "सटीक रंग पहचान गहरी संवेदी प्रसंस्करण से जुड़ी होती है। HSP संवेदनशीलता टेस्ट में अपना स्तर देखें।",
+    "highCta": "HSP टेस्ट शुरू करें →",
+    "lowTitle": "पैटर्न पहचान और तर्क शक्ति को मजबूत करें",
+    "lowDesc": "10 भाषा-मुक्त संख्या और प्रतीक पहेलियों के साथ अपने दृश्य तर्क को चुनौती दें।",
+    "lowCta": "IQ पहेली शुरू करें →"
   }
 }

@@ -83,7 +83,8 @@
     "colorPalette": "Paleta de cores",
     "futureSelf": "Eu Futuro",
     "stressCheck": "Teste de Estresse",
-    "iqTest": "Teste de QI"
+    "iqTest": "Teste de QI",
+    "hspTest": "Teste HSP"
   },
   "guide": {
     "aboutTitle": "Sobre o Teste de Sensibilidade a Cores",
@@ -113,5 +114,14 @@
     "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
     "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford Univ. Press.",
     "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
+  },
+  "nextStep": {
+    "label": "Próximo passo recomendado",
+    "highTitle": "Explorar Sensibilidade Sensorial e Ambiental",
+    "highDesc": "Alta discriminação cromática costuma correlacionar-se com processamento sensorial profundo. Descubra seu perfil no teste HSP.",
+    "highCta": "Iniciar teste HSP →",
+    "lowTitle": "Fortalecer Raciocínio Lógico e Reconhecimento de Padrões",
+    "lowDesc": "Desafie sua lógica visual com 10 quebra-cabeças neutros de símbolos e sequências.",
+    "lowCta": "Iniciar desafio de QI →"
   }
 }

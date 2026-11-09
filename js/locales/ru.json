@@ -83,7 +83,8 @@
     "colorPalette": "Цветовая палитра",
     "futureSelf": "Будущее я",
     "stressCheck": "Тест на стресс",
-    "iqTest": "Тест IQ"
+    "iqTest": "Тест IQ",
+    "hspTest": "Тест HSP"
   },
   "guide": {
     "aboutTitle": "О тесте цветовой чувствительности",
@@ -113,5 +114,14 @@
     "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
     "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford Univ. Press.",
     "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
+  },
+  "nextStep": {
+    "label": "Рекомендуемый следующий шаг",
+    "highTitle": "Исследуйте сенсорную чувствительность",
+    "highDesc": "Высокое цветовое различение часто связано с глубокой обработкой сенсорных стимулов. Пройдите тест HSP.",
+    "highCta": "Начать тест HSP →",
+    "lowTitle": "Тренировка логики и распознавания образов",
+    "lowDesc": "Развивайте визуальное мышление с помощью 10 невербальных головоломок с символами и последовательностями.",
+    "lowCta": "Начать тест IQ →"
   }
 }

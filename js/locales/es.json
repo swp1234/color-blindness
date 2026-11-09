@@ -83,7 +83,8 @@
     "colorPalette": "Paleta de colores",
     "futureSelf": "Yo Futuro",
     "stressCheck": "Test de Estrés",
-    "iqTest": "Test de CI"
+    "iqTest": "Test de CI",
+    "hspTest": "Test HSP"
   },
   "guide": {
     "aboutTitle": "Información sobre el Test de Sensibilidad al Color",
@@ -113,5 +114,14 @@
     "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
     "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford Univ. Press.",
     "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
+  },
+  "nextStep": {
+    "label": "Paso siguiente recomendado",
+    "highTitle": "Explorar la Sensibilidad Sensorial y Ambiental",
+    "highDesc": "Una alta discriminación cromática suele relacionarse con un procesamiento sensorial profundo. Descubre tu nivel en el test PAS/HSP.",
+    "highCta": "Empezar test HSP →",
+    "lowTitle": "Fortalecer el Razonamiento Lógico y de Patrones",
+    "lowDesc": "Desafía tu lógica visual y deducción con 10 acertijos abstractos de secuencias y símbolos.",
+    "lowCta": "Comenzar reto de CI →"
   }
 }

@@ -83,7 +83,8 @@
     "colorPalette": "调色板",
     "futureSelf": "未来自画像",
     "stressCheck": "压力测试",
-    "iqTest": "智商测试"
+    "iqTest": "智商测试",
+    "hspTest": "HSP高敏感测试"
   },
   "guide": {
     "aboutTitle": "色觉与色彩敏感度测试说明",
@@ -113,5 +114,14 @@
     "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
     "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision. Oxford University Press.",
     "ref4": "CIE. (2004). Colorimetry (3rd ed.). Publication 15:2004."
+  },
+  "nextStep": {
+    "label": "推荐下一步",
+    "highTitle": "探索感官与环境敏感度",
+    "highDesc": "敏锐的色彩辨别力通常与深入的感官处理相关。在HSP高敏感测试中查看您的反应模式。",
+    "highCta": "开始HSP高敏感测试 →",
+    "lowTitle": "强化模式识别与流体推理",
+    "lowDesc": "通过10道非语言符号与数列谜题挑战您的视觉逻辑与推理能力。",
+    "lowCta": "开始IQ谜题挑战 →"
   }
 }

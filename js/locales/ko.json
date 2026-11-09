@@ -83,7 +83,8 @@
     "colorPalette": "색상 팔레트",
     "futureSelf": "미래 자아",
     "stressCheck": "스트레스 지수",
-    "iqTest": "IQ 테스트"
+    "iqTest": "IQ 테스트",
+    "hspTest": "HSP 감각 테스트"
   },
   "guide": {
     "aboutTitle": "색각 및 색 감수성 검사 안내",
@@ -113,5 +114,14 @@
     "ref2": "Ishihara, S. (1917). Tests for color-blindness. Handaya, Tokyo.",
     "ref3": "Birch, J. (2001). Diagnosis of Defective Colour Vision (2nd ed.). Oxford University Press.",
     "ref4": "International Commission on Illumination (CIE). (2004). Colorimetry (3rd ed.). CIE 15:2004."
+  },
+  "nextStep": {
+    "label": "추천 다음 단계",
+    "highTitle": "감각 및 환경 민감도 탐색",
+    "highDesc": "높은 색채 식별력은 정밀한 감각 정보 처리와 깊은 관련이 있습니다. HSP 감각 민감도 척도에서 나의 반응 패턴을 확인해보세요.",
+    "highCta": "HSP 감각 테스트 시작 →",
+    "lowTitle": "패턴 인식 & 유동 추론 강화",
+    "lowDesc": "시각적 규칙과 기호 수열을 해석하는 10개 언어중립 퍼즐로 유동 추론 능력을 훈련해보세요.",
+    "lowCta": "IQ 퍼즐 도전 시작 →"
   }
 }
