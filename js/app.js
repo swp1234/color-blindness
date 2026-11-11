@@ -426,34 +426,75 @@ function animateNumber(el, start, end, duration) {
 }
 
 // === Share Functions ===
+function getShareUrl() {
+    const currentLang = window.i18n && typeof i18n.getCurrentLanguage === 'function' ? i18n.getCurrentLanguage() : 'en';
+    return 'https://dopabrain.com/color-blindness/?lang=' + encodeURIComponent(currentLang);
+}
+
 function getShareText() {
     const sensitivity = calculateSensitivity();
+    const url = getShareUrl();
     return _t('share.text', 'My color sensitivity score is') + ' ' + sensitivity + '/100! ' +
-           _t('share.challenge', 'Can you beat me?') + ' ' +
-           'https://dopabrain.com/color-blindness/';
+           _t('share.challenge', 'Can you beat me?') + '\n' + url;
 }
 
 function shareTwitter() {
     const text = encodeURIComponent(getShareText());
     window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+    if (typeof gtag === 'function') {
+        gtag('event', 'share', { method: 'twitter', content_type: 'color_blindness' });
+    }
 }
 
-function copyURL() {
-    const url = 'https://dopabrain.com/color-blindness/';
-    navigator.clipboard.writeText(url).then(() => {
-        const btn = $('btn-copy');
+async function copyURL() {
+    const text = getShareText();
+    const url = getShareUrl();
+    const btn = $('btn-copy');
+
+    if (navigator.share) {
+        try {
+            await navigator.share({
+                title: document.title,
+                text: text,
+                url: url
+            });
+            if (typeof gtag === 'function') {
+                gtag('event', 'share', { method: 'web_share', content_type: 'color_blindness' });
+            }
+            return;
+        } catch (e) {
+            if (e && e.name === 'AbortError') return;
+        }
+    }
+
+    if (btn) {
         const original = btn.textContent;
-        btn.textContent = _t('share.copied', 'Copied!');
-        setTimeout(() => { btn.textContent = original; }, 2000);
-    }).catch(() => {
-        // Fallback
-        const ta = document.createElement('textarea');
-        ta.value = 'https://dopabrain.com/color-blindness/';
-        document.body.appendChild(ta);
-        ta.select();
-        document.execCommand('copy');
-        document.body.removeChild(ta);
-    });
+        const setCopied = () => {
+            btn.textContent = _t('share.copied', 'Copied!');
+            setTimeout(() => { btn.textContent = original; }, 2000);
+        };
+        try {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                await navigator.clipboard.writeText(text);
+                setCopied();
+            } else {
+                throw new Error('Clipboard fallback');
+            }
+        } catch (_) {
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            ta.style.position = 'fixed';
+            ta.style.opacity = '0';
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand('copy');
+            document.body.removeChild(ta);
+            setCopied();
+        }
+        if (typeof gtag === 'function') {
+            gtag('event', 'share', { method: 'clipboard', content_type: 'color_blindness' });
+        }
+    }
 }
 
 // === Start Game ===
