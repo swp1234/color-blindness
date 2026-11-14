@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +7,8 @@
     <title>Color Blind Test - Free Online Eye Test | DopaBrain</title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3600813755953882" crossorigin="anonymous"></script>
     <meta name="description" content="Find the different color! Spot the odd tile as levels get harder and color differences shrink. Score out of 100 — how sharp is your color vision? Play free!">
-    <meta name="dateModified" content="2026-11-07">
-    <meta name="keywords" content="색각 테스트, 색맹 테스트, 색약 테스트, 색 구별 테스트, color blindness test, color vision test, 색감 테스트">
+    <meta name="dateModified" content="2026-11-14">
+    <meta name="keywords" content="color blindness test, color vision test, color sensitivity test, eye test online, hue discrimination, Ishihara alternative">
     <meta name="theme-color" content="#00cec9">
     <link rel="canonical" href="https://dopabrain.com/color-blindness/">
 
@@ -21,16 +21,16 @@
     <meta property="og:image:width" content="512">
     <meta property="og:image:height" content="512">
     <meta property="og:image:type" content="image/svg+xml">
-    <meta property="og:locale" content="ko_KR">
-    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ko_KR">
     <meta property="og:locale:alternate" content="ja_JP">
     <meta property="og:locale:alternate" content="zh_CN">
     <meta property="og:locale:alternate" content="hi_IN">
     <meta property="og:locale:alternate" content="ru_RU">
 
     <!-- hreflang for multilingual SEO -->
-    <link rel="alternate" hreflang="ko" href="https://dopabrain.com/color-blindness/">
-    <link rel="alternate" hreflang="en" href="https://dopabrain.com/color-blindness/?lang=en">
+    <link rel="alternate" hreflang="en" href="https://dopabrain.com/color-blindness/">
+    <link rel="alternate" hreflang="ko" href="https://dopabrain.com/color-blindness/?lang=ko">
     <link rel="alternate" hreflang="zh" href="https://dopabrain.com/color-blindness/?lang=zh">
     <link rel="alternate" hreflang="hi" href="https://dopabrain.com/color-blindness/?lang=hi">
     <link rel="alternate" hreflang="ru" href="https://dopabrain.com/color-blindness/?lang=ru">
@@ -158,6 +158,24 @@
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8GSWM40TV"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-J8GSWM40TV');</script>
+    <script>
+        (function syncInitialSeoLang() {
+            var supported = ['ko', 'en', 'zh', 'hi', 'ru', 'ja', 'es', 'pt', 'id', 'tr', 'de', 'fr'];
+            var lang = '';
+            try {
+                lang = new URLSearchParams(window.location.search).get('lang') || '';
+            } catch (e) {}
+            if (supported.indexOf(lang) === -1) lang = 'en';
+            document.documentElement.lang = lang;
+            var seoUrl = lang === 'en'
+                ? 'https://dopabrain.com/color-blindness/'
+                : 'https://dopabrain.com/color-blindness/?lang=' + lang;
+            var can = document.querySelector('link[rel="canonical"]');
+            if (can) can.href = seoUrl;
+            var ogu = document.querySelector('meta[property="og:url"]');
+            if (ogu) ogu.content = seoUrl;
+        })();
+    </script>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>

@@ -42,17 +42,50 @@ class I18n {
         }
         return value;
     }
+    getSeoHref(lang) {
+        if (!lang || lang === 'x-default' || lang === 'en') {
+            return 'https://dopabrain.com/color-blindness/';
+        }
+        return `https://dopabrain.com/color-blindness/?lang=${lang}`;
+    }
+    syncSeoState(lang, updateHistory = false) {
+        const canonicalHref = this.getSeoHref(lang);
+        const canonicalEl = document.querySelector('link[rel="canonical"]');
+        if (canonicalEl) canonicalEl.href = canonicalHref;
+
+        const ogUrl = document.querySelector('meta[property="og:url"]');
+        if (ogUrl) ogUrl.content = canonicalHref;
+
+        document.querySelectorAll('link[rel="alternate"][hreflang]').forEach(link => {
+            const hreflang = link.getAttribute('hreflang');
+            link.href = this.getSeoHref(hreflang === 'x-default' ? 'x-default' : hreflang);
+        });
+
+        if (updateHistory) {
+            const nextUrl = new URL(window.location.href);
+            if (lang === 'en') {
+                nextUrl.searchParams.delete('lang');
+            } else {
+                nextUrl.searchParams.set('lang', lang);
+            }
+            if (window.location.search !== nextUrl.search) {
+                window.history.replaceState({}, '', nextUrl.pathname + nextUrl.search + nextUrl.hash);
+            }
+        }
+    }
     async setLanguage(lang) {
         if (!this.supportedLanguages.includes(lang)) return false;
         if (!this.translations[lang]) await this.loadTranslations(lang);
         this.currentLang = lang;
         document.documentElement.lang = lang;
         try { localStorage.setItem('app_language', lang); } catch (e) {}
+        this.syncSeoState(lang, true);
         this.updateUI();
         return true;
     }
     updateUI() {
         document.documentElement.lang = this.currentLang;
+        this.syncSeoState(this.currentLang, false);
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const val = this.t(el.getAttribute('data-i18n'));
             if (val !== el.getAttribute('data-i18n')) el.textContent = val;

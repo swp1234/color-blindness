@@ -428,6 +428,7 @@ function animateNumber(el, start, end, duration) {
 // === Share Functions ===
 function getShareUrl() {
     const currentLang = window.i18n && typeof i18n.getCurrentLanguage === 'function' ? i18n.getCurrentLanguage() : 'en';
+    if (currentLang === 'en') return 'https://dopabrain.com/color-blindness/';
     return 'https://dopabrain.com/color-blindness/?lang=' + encodeURIComponent(currentLang);
 }
 
