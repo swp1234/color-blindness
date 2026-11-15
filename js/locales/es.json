@@ -123,5 +123,15 @@
     "lowTitle": "Fortalecer el Razonamiento Lógico y de Patrones",
     "lowDesc": "Desafía tu lógica visual y deducción con 10 acertijos abstractos de secuencias y símbolos.",
     "lowCta": "Comenzar reto de CI →"
+  },
+  "curated": {
+    "badge": "LECTURAS SOBRE PERCEPCIÓN CROMÁTICA",
+    "title": "Libros para profundizar en el color y la visión",
+    "book1Title": "La vida secreta del color",
+    "book1Desc": "Kassia St. Clair • Historia y percepción detrás de 75 pigmentos y matices.",
+    "book2Title": "La interacción del color",
+    "book2Desc": "Josef Albers • Ejercicios visuales clásicos sobre contraste cromático y tono relativo.",
+    "readPill": "Ver libro ↗",
+    "disclosure": "Lecturas seleccionadas sobre percepción visual. Enlaces adaptados por región."
   }
 }

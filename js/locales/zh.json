@@ -123,5 +123,15 @@
     "lowTitle": "强化模式识别与流体推理",
     "lowDesc": "通过10道非语言符号与数列谜题挑战您的视觉逻辑与推理能力。",
     "lowCta": "开始IQ谜题挑战 →"
+  },
+  "curated": {
+    "badge": "色彩感知延伸阅读",
+    "title": "深化色彩辨识与视觉认知的精选书籍",
+    "book1Title": "色彩的秘密生活 (The Secret Lives of Color)",
+    "book1Desc": "Kassia St. Clair • 解析75种经典色调背后的视觉感知与历史故事。",
+    "book2Title": "色彩的相互作用 (Interaction of Color)",
+    "book2Desc": "Josef Albers • 探索色相对比与相对色彩感知的经典视觉训练指南。",
+    "readPill": "查看图书 ↗",
+    "disclosure": "精选色彩感知阅读书单。链接将按所在地区自动适配 (dopabrain-20)。"
   }
 }

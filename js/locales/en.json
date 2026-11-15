@@ -123,5 +123,15 @@
     "lowTitle": "Strengthen Pattern & Logic Reasoning",
     "lowDesc": "Challenge your visual logic and rule deduction across 10 language-neutral symbol and sequence puzzles.",
     "lowCta": "Start IQ Puzzle →"
+  },
+  "curated": {
+    "badge": "VISUAL PERCEPTION READING",
+    "title": "Deepen Your Color & Visual Literacy",
+    "book1Title": "The Secret Lives of Color",
+    "book1Desc": "Kassia St. Clair • History and perception behind 75 iconic pigments and shades.",
+    "book2Title": "Interaction of Color",
+    "book2Desc": "Josef Albers • Classic visual exercises on chromatic contrast and relative hue.",
+    "readPill": "View Book ↗",
+    "disclosure": "Curated visual perception reading. Links adapt by region (dopabrain-20)."
   }
 }

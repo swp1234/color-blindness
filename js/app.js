@@ -584,9 +584,57 @@ function updateActiveLang(lang) {
     });
 }
 
+function updateCuratedResources(lang) {
+    const asins = { secretLivesColor: '0143131141', interactionOfColor: '0300179359' };
+    const koQueries = {
+        secretLivesColor: '컬러의 비밀 카시아 세인트 클레어',
+        interactionOfColor: '색채의 상호작용 요제프 알버스'
+    };
+    const amazonDomains = {
+        en: { domain: 'amazon.com', tag: 'dopabrain-20' },
+        de: { domain: 'amazon.de', tag: '' },
+        fr: { domain: 'amazon.fr', tag: '' },
+        es: { domain: 'amazon.es', tag: '' },
+        pt: { domain: 'amazon.com', tag: 'dopabrain-20' },
+        ja: { domain: 'amazon.co.jp', tag: '' }
+    };
+    const resolvedLang = lang || (window.i18n && window.i18n.currentLang) || 'en';
+    document.querySelectorAll('#curated-resources-card .curated-item').forEach(item => {
+        const key = item.dataset.curatedKey;
+        const asin = asins[key];
+        if (!asin) return;
+        if (resolvedLang === 'ko') {
+            item.href = 'https://search.kyobobook.co.kr/search?keyword=' + encodeURIComponent(koQueries[key] || key);
+        } else {
+            const market = amazonDomains[resolvedLang] || amazonDomains.en;
+            item.href = 'https://www.' + market.domain + '/dp/' + asin + (market.tag ? ('?tag=' + market.tag) : '');
+        }
+        if (!item.dataset.curatedTracked) {
+            item.dataset.curatedTracked = 'true';
+            item.addEventListener('click', () => {
+                if (typeof gtag === 'function') {
+                    gtag('event', 'curated_resource_click', {
+                        app_name: 'color-blindness',
+                        resource_key: key,
+                        content_locale: (window.i18n && window.i18n.currentLang) || resolvedLang,
+                        cta_surface: 'curated_resources'
+                    });
+                    gtag('event', 'content_cta_click', {
+                        cta_type: 'curated_book',
+                        destination: item.href,
+                        source: 'color_blindness'
+                    });
+                }
+            });
+        }
+    });
+}
+
 function preserveLanguageLinks() {
     const lang = (window.i18n && window.i18n.currentLang) || 'en';
+    updateCuratedResources(lang);
     document.querySelectorAll('a[href]').forEach(link => {
+        if (link.closest('#curated-resources-card')) return;
         const href = link.getAttribute('href');
         if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('javascript:')) return;
         try {

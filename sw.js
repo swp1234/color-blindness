@@ -1,4 +1,4 @@
-const CACHE_NAME = 'color-blindness-v2';
+const CACHE_NAME = 'color-blindness-v3';
 const ASSETS = [
   './',
   'index.html',

@@ -123,5 +123,15 @@
     "lowTitle": "Renforcer la Reconnaissance de Motifs & la Logique",
     "lowDesc": "Stimulez votre logique visuelle avec 10 énigmes séquentielles et symboliques sans barrière de langue.",
     "lowCta": "Lancer le puzzle QI →"
+  },
+  "curated": {
+    "badge": "LECTURES SUR LA PERCEPTION DES COULEURS",
+    "title": "Approfondir votre culture chromatique et visuelle",
+    "book1Title": "La vie secrète des couleurs",
+    "book1Desc": "Kassia St. Clair • Histoire et perception visuelle de 75 nuances emblématiques.",
+    "book2Title": "L'Interaction des couleurs",
+    "book2Desc": "Josef Albers • Exercices visuels de référence sur le contraste et la relativité des teintes.",
+    "readPill": "Voir le livre ↗",
+    "disclosure": "Sélection éditoriale dédiée à la perception visuelle. Liens adaptés selon votre région."
   }
 }

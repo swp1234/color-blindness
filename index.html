@@ -7,7 +7,7 @@
     <title>Color Blind Test - Free Online Eye Test | DopaBrain</title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3600813755953882" crossorigin="anonymous"></script>
     <meta name="description" content="Find the different color! Spot the odd tile as levels get harder and color differences shrink. Score out of 100 — how sharp is your color vision? Play free!">
-    <meta name="dateModified" content="2026-11-14">
+    <meta name="dateModified" content="2026-11-15">
     <meta name="keywords" content="color blindness test, color vision test, color sensitivity test, eye test online, hue discrimination, Ishihara alternative">
     <meta name="theme-color" content="#00cec9">
     <link rel="canonical" href="https://dopabrain.com/color-blindness/">
@@ -20,7 +20,7 @@
     <meta property="og:image" content="https://dopabrain.com/portal/img/og/color-blindness.png">
     <meta property="og:image:width" content="512">
     <meta property="og:image:height" content="512">
-    <meta property="og:image:type" content="image/svg+xml">
+    <meta property="og:image:type" content="image/png">
     <meta property="og:locale" content="en_US">
     <meta property="og:locale:alternate" content="ko_KR">
     <meta property="og:locale:alternate" content="ja_JP">
@@ -167,13 +167,6 @@
             } catch (e) {}
             if (supported.indexOf(lang) === -1) lang = 'en';
             document.documentElement.lang = lang;
-            var seoUrl = lang === 'en'
-                ? 'https://dopabrain.com/color-blindness/'
-                : 'https://dopabrain.com/color-blindness/?lang=' + lang;
-            var can = document.querySelector('link[rel="canonical"]');
-            if (can) can.href = seoUrl;
-            var ogu = document.querySelector('meta[property="og:url"]');
-            if (ogu) ogu.content = seoUrl;
         })();
     </script>
 <link rel="stylesheet" href="css/style.css">
@@ -320,6 +313,32 @@
                 </div>
 
                 <button id="btn-retry" class="btn-start" data-i18n="result.retry">Try Again</button>
+
+                <div class="curated-resources-card" id="curated-resources-card">
+                    <div class="curated-header">
+                        <span class="curated-badge" data-i18n="curated.badge">VISUAL PERCEPTION READING</span>
+                        <h4 class="curated-title" data-i18n="curated.title">Deepen Your Color &amp; Visual Literacy</h4>
+                    </div>
+                    <div class="curated-grid">
+                        <a href="https://www.amazon.com/dp/0143131141?tag=dopabrain-20" target="_blank" rel="noopener noreferrer nofollow" class="curated-item" data-curated-key="secretLivesColor">
+                            <span class="curated-icon" aria-hidden="true">🎨</span>
+                            <div class="curated-info">
+                                <strong data-i18n="curated.book1Title">The Secret Lives of Color</strong>
+                                <span data-i18n="curated.book1Desc">Kassia St. Clair • History and perception behind 75 iconic pigments and shades.</span>
+                            </div>
+                            <span class="curated-ext-pill" data-i18n="curated.readPill">View Book ↗</span>
+                        </a>
+                        <a href="https://www.amazon.com/dp/0300179359?tag=dopabrain-20" target="_blank" rel="noopener noreferrer nofollow" class="curated-item" data-curated-key="interactionOfColor">
+                            <span class="curated-icon" aria-hidden="true">🌈</span>
+                            <div class="curated-info">
+                                <strong data-i18n="curated.book2Title">Interaction of Color</strong>
+                                <span data-i18n="curated.book2Desc">Josef Albers • Classic visual exercises on chromatic contrast and relative hue.</span>
+                            </div>
+                            <span class="curated-ext-pill" data-i18n="curated.readPill">View Book ↗</span>
+                        </a>
+                    </div>
+                    <p class="curated-disclosure" data-i18n="curated.disclosure">Curated visual perception reading. Links adapt by region (dopabrain-20).</p>
+                </div>
 
                 <footer class="game-footer">
                     <a href="https://dopabrain.com/portal/" class="back-link" data-i18n="footer.back">

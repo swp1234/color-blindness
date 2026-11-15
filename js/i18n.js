@@ -49,12 +49,9 @@ class I18n {
         return `https://dopabrain.com/color-blindness/?lang=${lang}`;
     }
     syncSeoState(lang, updateHistory = false) {
-        const canonicalHref = this.getSeoHref(lang);
-        const canonicalEl = document.querySelector('link[rel="canonical"]');
-        if (canonicalEl) canonicalEl.href = canonicalHref;
-
+        const seoUrl = this.getSeoHref(lang);
         const ogUrl = document.querySelector('meta[property="og:url"]');
-        if (ogUrl) ogUrl.content = canonicalHref;
+        if (ogUrl) ogUrl.content = seoUrl;
 
         document.querySelectorAll('link[rel="alternate"][hreflang]').forEach(link => {
             const hreflang = link.getAttribute('hreflang');

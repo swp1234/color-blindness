@@ -123,5 +123,15 @@
     "lowTitle": "Mustererkennung & Logisches Denken Trainieren",
     "lowDesc": "Fordern Sie Ihre visuelle Logik mit 10 sprachneutralen Symbol- und Zahlenrätseln heraus.",
     "lowCta": "IQ-Rätsel starten →"
+  },
+  "curated": {
+    "badge": "EMPFEHLUNGEN ZUR FARBWAHRNEHMUNG",
+    "title": "Bücher für schärfere Farb- und Kontrastwahrnehmung",
+    "book1Title": "Das geheime Leben der Farben",
+    "book1Desc": "Kassia St. Clair • Geschichte und visuelle Wirkung von 75 prägenden Farbtönen.",
+    "book2Title": "Interaction of Color (Grundlegung einer Didaktik des Sehens)",
+    "book2Desc": "Josef Albers • Klassische Sehübungen zu Farbkontrast und relativer Wahrnehmung.",
+    "readPill": "Buch ansehen ↗",
+    "disclosure": "Ausgewählte Fachliteratur zur Farbwahrnehmung. Regionale Store-Links."
   }
 }

@@ -123,5 +123,15 @@
     "lowTitle": "Fortalecer Raciocínio Lógico e Reconhecimento de Padrões",
     "lowDesc": "Desafie sua lógica visual com 10 quebra-cabeças neutros de símbolos e sequências.",
     "lowCta": "Iniciar desafio de QI →"
+  },
+  "curated": {
+    "badge": "LEITURA SOBRE PERCEPÇÃO DE CORES",
+    "title": "Aprofunde sua percepção cromática e visual",
+    "book1Title": "As Vidas Secretas das Cores",
+    "book1Desc": "Kassia St. Clair • História e percepção visual por trás de 75 tonalidades marcantes.",
+    "book2Title": "A Interação da Cor",
+    "book2Desc": "Josef Albers • Exercícios clássicos sobre contraste cromático e percepção relativa.",
+    "readPill": "Ver livro ↗",
+    "disclosure": "Curadoria educativa sobre percepção visual. Links adaptados por região (dopabrain-20)."
   }
 }
